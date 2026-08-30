@@ -59,8 +59,16 @@ def test_materialized_artifact_has_no_machine_specific_home_path() -> None:
     assert offenders == []
 
 
-def test_pack_file_is_an_unusable_template_until_remote_authorization() -> None:
-    template = (ROOT / "hermes-pack.yaml.in").read_text(encoding="utf-8")
-    assert "REPLACE_OWNER/REPLACE_REPOSITORY" in template
-    assert "REPLACE_WITH_EXACT_40_CHARACTER_COMMIT_SHA" in template
-    assert not (ROOT / "hermes-pack.yaml").exists()
+def test_pack_file_pins_the_public_source_commit_and_excludes_benny() -> None:
+    pack_path = ROOT / "hermes-pack.yaml"
+    pack = pack_path.read_text(encoding="utf-8")
+    pinned_commit = "15f0bfe218573546b391cebcad1d34cc0251f531"
+
+    assert pack_path.is_file()
+    assert not (ROOT / "hermes-pack.yaml.in").exists()
+    assert pack.count("repo: Steamedhams89/hermes-pstack") == 2
+    assert pack.count(f"ref: {pinned_commit}") == 2
+    assert "subdir: packages/pstack\n" in pack
+    assert "subdir: packages/pstack-runtime\n" in pack
+    assert "pstack-benny" not in pack
+    assert "REPLACE_" not in pack

@@ -274,7 +274,7 @@
       ],
       "inputs": {
         "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
-        "tests/test_workspace_contract.py": "2f0235944731a2926b89f2dd4d832f887460c7944533cadd162ed65247ba35d0",
+        "tests/test_workspace_contract.py": "3d321888ef0e6f0087c273974c4764cfbccb247ec4f4304f4e3686f2e0676708",
         "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
       },
       "status": "passed"
@@ -369,7 +369,7 @@
           ],
           "cwd": "ephemeral:packages/pstack/skills/poteto-mode/scripts",
           "exit_code": 0,
-          "output_sha256": "d2bc995533a8b171f188c8c6d2f63a8779fe529b4aa69d02cfd4d85db6728ee3"
+          "output_sha256": "17d986435c58d590bb86d787ff91f38b799f32bd518376cce1597b412544211d"
         },
         {
           "argv": [
@@ -380,7 +380,7 @@
           ],
           "cwd": "ephemeral:packages/pstack/skills/poteto-mode/scripts",
           "exit_code": 0,
-          "output_sha256": "99274f40085d9b057ec9a26f4116914f2d89539cd8be4df474715d0797ba2b4e"
+          "output_sha256": "d51892430411d9596d4bd189c5fc07b97f7630f2ab47c35adc48ebe8247f8c58"
         },
         {
           "argv": [

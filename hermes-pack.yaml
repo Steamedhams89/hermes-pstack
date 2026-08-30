@@ -1,0 +1,12 @@
+name: hermes-pstack
+description: Complete source-accounted Hermes port of Lauren Tan's pstack 0.14.5
+version: 0.14.5-hermes.1
+plugins:
+  - repo: Steamedhams89/hermes-pstack
+    ref: 15f0bfe218573546b391cebcad1d34cc0251f531
+    subdir: packages/pstack
+  - repo: Steamedhams89/hermes-pstack
+    ref: 15f0bfe218573546b391cebcad1d34cc0251f531
+    subdir: packages/pstack-runtime
+config: {}
+skills: []
