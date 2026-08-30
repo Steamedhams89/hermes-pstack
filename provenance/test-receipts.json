@@ -76,7 +76,7 @@
       "inputs": {
         "tests/test_guide_port.py": "16c85e9056dcd30c37fb987a176ea7d41be92443633dab2245f23cc96126d189",
         "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     },
@@ -100,7 +100,7 @@
       ],
       "inputs": {
         "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     },
@@ -127,7 +127,7 @@
       ],
       "inputs": {
         "tests/test_runtime_pstack_full.py": "f0f8a2c8fe573fb096c4ff0b26cfd25b45d08d7f026854a884c13eab9238fa55",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     },
@@ -152,7 +152,7 @@
       ],
       "inputs": {
         "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     },
@@ -176,7 +176,7 @@
       ],
       "inputs": {
         "tests/test_guide_port.py": "16c85e9056dcd30c37fb987a176ea7d41be92443633dab2245f23cc96126d189",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     },
@@ -200,7 +200,7 @@
       ],
       "inputs": {
         "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     },
@@ -224,7 +224,7 @@
       ],
       "inputs": {
         "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     },
@@ -248,7 +248,7 @@
       ],
       "inputs": {
         "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     },
@@ -275,7 +275,7 @@
       "inputs": {
         "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
         "tests/test_workspace_contract.py": "3d321888ef0e6f0087c273974c4764cfbccb247ec4f4304f4e3686f2e0676708",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     },
@@ -301,7 +301,7 @@
       "inputs": {
         "tests/test_parity_checked_in.py": "e012538f980b4706039f9a58a016e490b27c967fea08fcf2f39cb3c6678bf8fb",
         "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     },
@@ -329,7 +329,7 @@
       "inputs": {
         "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
         "tests/test_runtime_pstack_full.py": "f0f8a2c8fe573fb096c4ff0b26cfd25b45d08d7f026854a884c13eab9238fa55",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     },
@@ -355,7 +355,7 @@
       "inputs": {
         "tests/test_guide_port.py": "16c85e9056dcd30c37fb987a176ea7d41be92443633dab2245f23cc96126d189",
         "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     },
@@ -369,7 +369,7 @@
           ],
           "cwd": "ephemeral:packages/pstack/skills/poteto-mode/scripts",
           "exit_code": 0,
-          "output_sha256": "17d986435c58d590bb86d787ff91f38b799f32bd518376cce1597b412544211d"
+          "output_sha256": "f93d07cacf1440001f6378043f8596a14bcd456ff41a9131fe2bc3cb3b390f57"
         },
         {
           "argv": [
@@ -380,7 +380,7 @@
           ],
           "cwd": "ephemeral:packages/pstack/skills/poteto-mode/scripts",
           "exit_code": 0,
-          "output_sha256": "d51892430411d9596d4bd189c5fc07b97f7630f2ab47c35adc48ebe8247f8c58"
+          "output_sha256": "900f2ad18b06a79ea6a21998e467b4383f7379eabf0627b09a6e44061fe3631e"
         },
         {
           "argv": [
@@ -414,7 +414,7 @@
         "packages/pstack/skills/poteto-mode/scripts/watch-pr/types.ts": "64ba6221e3bfe61bbb292337d199cdec6309455477280efb060203dba34e0e91",
         "packages/pstack/skills/poteto-mode/scripts/watch-pr/watch-pr": "d955603be6cc0e8b8ffcec722f635192b2261410b1f2929abea94480e47eb5d4",
         "packages/pstack/skills/poteto-mode/scripts/worktree-audit.sh": "8d0d52c6e84a1ce2b1400643e574f3ecaacc7c13be366327f3d2d1904fdc6aa4",
-        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+        "tools/receipt.py": "32cdbc9f5b4876e9cb7547a295b16db9a5122441cd1a2fbb5d8b4dc00555f9b8"
       },
       "status": "passed"
     }

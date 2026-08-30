@@ -90,6 +90,24 @@ def test_test_spec_registry_covers_every_declared_gate_without_install_commands(
             assert "wget " not in joined
 
 
+def test_output_normalization_removes_environment_and_timing_noise(monkeypatch, tmp_path):
+    repo_root = tmp_path / "repo"
+    hermes_home = tmp_path / "hermes-home"
+    hermes_source = tmp_path / "hermes-source"
+    monkeypatch.setenv("HERMES_SOURCE_ROOT", str(hermes_source))
+    raw = (
+        "\x1b[32mbun install\x1b[0m [28.00ms]\r\n"
+        "pytest in 1.23s\r\n"
+        f"{repo_root} {hermes_home} {hermes_source}\r\n"
+    )
+
+    assert receipt._normalize_output(raw, repo_root, hermes_home) == (
+        "bun install [<duration>]\n"
+        "pytest in <duration>s\n"
+        "<repo> <hermes-home> <hermes-source>\n"
+    )
+
+
 def test_script_dependency_provisioning_is_explicit_ephemeral_and_clean(monkeypatch, tmp_path):
     script_root = tmp_path / receipt.SCRIPT_ROOT
     script_root.mkdir(parents=True)
