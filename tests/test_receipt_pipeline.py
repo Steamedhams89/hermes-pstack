@@ -108,6 +108,16 @@ def test_output_normalization_removes_environment_and_timing_noise(monkeypatch, 
     )
 
 
+def test_upstream_script_receipt_runs_each_test_file_serially():
+    commands = receipt.TEST_SPECS["upstream-script-suite"].commands
+    assert [command.argv for command in commands if command.argv[:2] == ("bun", "test")] == [
+        ("bun", "test", "--parallel=1", "orch/orch.test.ts"),
+        ("bun", "test", "--parallel=1", "watch-pr/github.test.ts"),
+        ("bun", "test", "--parallel=1", "watch-pr/policy.test.ts"),
+        ("bun", "test", "--parallel=1", "watch-pr/cli.test.ts"),
+    ]
+
+
 def test_script_dependency_provisioning_is_explicit_ephemeral_and_clean(monkeypatch, tmp_path):
     script_root = tmp_path / receipt.SCRIPT_ROOT
     script_root.mkdir(parents=True)

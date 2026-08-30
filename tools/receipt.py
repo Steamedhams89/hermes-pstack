@@ -177,7 +177,22 @@ TEST_SPECS: dict[str, TestSpec] = {
     ),
     "upstream-script-suite": TestSpec(
         commands=(
-            CommandSpec(("bun", "test", "orch", "watch-pr"), SCRIPT_ROOT.as_posix(), "bun"),
+            CommandSpec(("bun", "test", "--parallel=1", "orch/orch.test.ts"), SCRIPT_ROOT.as_posix(), "bun"),
+            CommandSpec(
+                ("bun", "test", "--parallel=1", "watch-pr/github.test.ts"),
+                SCRIPT_ROOT.as_posix(),
+                "bun",
+            ),
+            CommandSpec(
+                ("bun", "test", "--parallel=1", "watch-pr/policy.test.ts"),
+                SCRIPT_ROOT.as_posix(),
+                "bun",
+            ),
+            CommandSpec(
+                ("bun", "test", "--parallel=1", "watch-pr/cli.test.ts"),
+                SCRIPT_ROOT.as_posix(),
+                "bun",
+            ),
             CommandSpec(("bun", "run", "typecheck"), SCRIPT_ROOT.as_posix(), "bun"),
         ),
         inputs=((SCRIPT_ROOT / "package.json").as_posix(), (SCRIPT_ROOT / "bun.lock").as_posix()),
