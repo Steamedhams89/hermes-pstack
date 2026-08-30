@@ -15,7 +15,7 @@ concurrency:
 
 env:
   HERMES_SOURCE_ROOT: ${{ github.workspace }}/vendor/hermes-agent
-  HERMES_HOME: ${{ runner.temp }}/hermes-profile
+  HERMES_HOME: /tmp/hermes-pstack-profile
   PYTHONDONTWRITEBYTECODE: "1"
   PYTEST_ADDOPTS: "-p no:cacheprovider"
 
