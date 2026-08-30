@@ -66,7 +66,7 @@ jobs:
         run: git diff --exit-code -- provenance/parity-ledger.json provenance/patches/index.json provenance/test-receipts.json
 
       - name: Diagnose Bun receipt drift
-        if: steps.deterministic_receipts.outcome == 'failure'
+        if: failure() && steps.deterministic_receipts.outcome == 'failure'
         run: |
           python - <<'PY'
           import hashlib
