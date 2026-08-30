@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# JavaScript / Bun
+node_modules/
+
+# Build and editor output
+build/
+dist/
+vendor/
+*.egg-info/
+.DS_Store
+*.swp
+*.swo
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example

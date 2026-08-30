@@ -1,0 +1,14 @@
+# Template only. Replace the repository and exact commit after a remote is authorized.
+name: hermes-pstack-full
+description: Full source-accounted Hermes port of Lauren Tan's pstack
+version: 0.14.5-hermes.1
+plugins:
+  - repo: REPLACE_OWNER/REPLACE_REPOSITORY
+    ref: REPLACE_WITH_EXACT_40_CHARACTER_COMMIT_SHA
+    subdir: packages/pstack
+  - repo: REPLACE_OWNER/REPLACE_REPOSITORY
+    ref: REPLACE_WITH_EXACT_40_CHARACTER_COMMIT_SHA
+    subdir: packages/pstack-runtime
+  # Benny stays omitted until its external automation gates pass.
+config: {}
+skills: []

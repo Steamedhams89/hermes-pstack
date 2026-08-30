@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "upstream": {
+    "author": "Lauren Tan",
+    "commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+    "file_count": 157,
+    "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
+    "license": {
+      "copyright": "Copyright (c) 2026 Lauren Tan",
+      "source_path": "LICENSE",
+      "source_sha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "spdx": "MIT"
+    },
+    "name": "pstack",
+    "repository": "https://github.com/cursor/plugins",
+    "subtree": "pstack",
+    "total_bytes": 3091772,
+    "tree_hash_algorithm": "sha256(sorted(4-byte-be-path-length || utf8-posix-path || raw-file-sha256))",
+    "tree_sha256": "0b261012eb982e45472b5e368592da26a8c15c92bb12dd680d3786b997c57177",
+    "version": "0.14.5"
+  }
+}

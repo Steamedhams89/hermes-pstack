@@ -1,0 +1,3562 @@
+{
+  "entries": [
+    {
+      "bytes": 693,
+      "component": "plugin",
+      "disposition": "provenance_copy",
+      "kind": "plugin_manifest",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "ba4b0f227dfaca817512cac1d926eb5609b2a0886ac14bf0664997427a31588f",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "provenance/upstream-root/.cursor-plugin/plugin.json",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": ".cursor-plugin/plugin.json",
+      "source_sha256": "ba4b0f227dfaca817512cac1d926eb5609b2a0886ac14bf0664997427a31588f"
+    },
+    {
+      "bytes": 30,
+      "component": ".gitignore",
+      "disposition": "provenance_copy",
+      "kind": "root_file",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "8ffe9de56bd30c1a95cd945262d6e3ac355ada4111551dde41f67851b9f1fc55",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "provenance/upstream-root/.gitignore",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": ".gitignore",
+      "source_sha256": "8ffe9de56bd30c1a95cd945262d6e3ac355ada4111551dde41f67851b9f1fc55"
+    },
+    {
+      "bytes": 1067,
+      "component": "LICENSE",
+      "disposition": "provenance_copy",
+      "kind": "root_file",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "provenance/upstream-root/LICENSE",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "LICENSE",
+      "source_sha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e"
+    },
+    {
+      "bytes": 21780,
+      "component": "README.md",
+      "disposition": "provenance_copy",
+      "kind": "root_file",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "c4cc4610b9411958db27b16c455fcf175a48e7a2d464efd584de149d20a82e65",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "provenance/upstream-root/README.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "README.md",
+      "source_sha256": "c4cc4610b9411958db27b16c455fcf175a48e7a2d464efd584de149d20a82e65"
+    },
+    {
+      "bytes": 2230,
+      "component": "comment-sicko",
+      "disposition": "verbatim_copy",
+      "kind": "agent_prompt",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "c0fd0383008da45fc78cfac17b9007d62c42f87ad1c8d5c2fb658b1fd01f7c82",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-runtime/resources/agents/comment-sicko.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "agents/comment-sicko.md",
+      "source_sha256": "c0fd0383008da45fc78cfac17b9007d62c42f87ad1c8d5c2fb658b1fd01f7c82"
+    },
+    {
+      "bytes": 641,
+      "component": "poteto-agent",
+      "disposition": "verbatim_copy",
+      "kind": "agent_prompt",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "c3850be1b97bc97cec0568ed8b26d04e7693c4e07868137c58fe546d37f288e9",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-runtime/resources/agents/poteto-agent.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "agents/poteto-agent.md",
+      "source_sha256": "c3850be1b97bc97cec0568ed8b26d04e7693c4e07868137c58fe546d37f288e9"
+    },
+    {
+      "bytes": 7460,
+      "component": "benny",
+      "disposition": "verbatim_copy",
+      "kind": "automation_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "a125e317dec1b8731fdc71f404c669f1127a73af932f7a7b8b8744a5542328a7",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-benny/resources/benny/FOR_AGENTS.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "automations/benny/FOR_AGENTS.md",
+      "source_sha256": "a125e317dec1b8731fdc71f404c669f1127a73af932f7a7b8b8744a5542328a7"
+    },
+    {
+      "bytes": 1321,
+      "component": "benny",
+      "disposition": "verbatim_copy",
+      "kind": "automation_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "ca3c42cbb7f0bf7068f7407eb355815e6c234d5c2786942f3cbe751a3690024b",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-benny/resources/benny/README.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "automations/benny/README.md",
+      "source_sha256": "ca3c42cbb7f0bf7068f7407eb355815e6c234d5c2786942f3cbe751a3690024b"
+    },
+    {
+      "bytes": 14238,
+      "component": "reproduce-and-fix-issues",
+      "disposition": "verbatim_copy",
+      "kind": "automation_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "1363cc07343fe86aab42853b1bd4563288cbcbdf12f1c265b3b3b1afa25c09cb",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-benny/resources/benny/skills/reproduce-and-fix-issues/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
+      "source_sha256": "1363cc07343fe86aab42853b1bd4563288cbcbdf12f1c265b3b3b1afa25c09cb"
+    },
+    {
+      "bytes": 5517,
+      "component": "benny",
+      "disposition": "verbatim_copy",
+      "kind": "automation_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "58b0615d2fca895f9a20df83266e280042b0d585b5f2fd324e2094a682fd846b",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-benny/resources/benny/skills/reproduce-and-fix-issues/references/control-adapter.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "automations/benny/skills/reproduce-and-fix-issues/references/control-adapter.md",
+      "source_sha256": "58b0615d2fca895f9a20df83266e280042b0d585b5f2fd324e2094a682fd846b"
+    },
+    {
+      "bytes": 5646,
+      "component": "benny",
+      "disposition": "verbatim_copy",
+      "kind": "automation_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "1e5c7c8522daec3e43fcc2e73ceb97289ded65b552949ce65a11cc8eb3d2b6ee",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-benny/resources/benny/skills/reproduce-and-fix-issues/references/feature-map.example.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "automations/benny/skills/reproduce-and-fix-issues/references/feature-map.example.md",
+      "source_sha256": "1e5c7c8522daec3e43fcc2e73ceb97289ded65b552949ce65a11cc8eb3d2b6ee"
+    },
+    {
+      "bytes": 3149,
+      "component": "benny",
+      "disposition": "verbatim_copy",
+      "kind": "automation_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "c90eae00abcdec71a58fa8d60f2c495b082a526ad50b8e8e494837609129bf29",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-benny/resources/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md",
+      "source_sha256": "c90eae00abcdec71a58fa8d60f2c495b082a526ad50b8e8e494837609129bf29"
+    },
+    {
+      "bytes": 13992,
+      "component": "setup-benny",
+      "disposition": "verbatim_copy",
+      "kind": "automation_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "5a3cbe63360c9f6373b6cb6c79a1eaf7e0eba181bfaa1577e2e6431af3407282",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-benny/resources/benny/skills/setup-benny/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "automations/benny/skills/setup-benny/SKILL.md",
+      "source_sha256": "5a3cbe63360c9f6373b6cb6c79a1eaf7e0eba181bfaa1577e2e6431af3407282"
+    },
+    {
+      "bytes": 10320,
+      "component": "triage-issue-reports",
+      "disposition": "verbatim_copy",
+      "kind": "automation_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "216a758b8711e64d19a55e6032c496527daac6364d010611040f3c04ef1a448f",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-benny/resources/benny/skills/triage-issue-reports/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "automations/benny/skills/triage-issue-reports/SKILL.md",
+      "source_sha256": "216a758b8711e64d19a55e6032c496527daac6364d010611040f3c04ef1a448f"
+    },
+    {
+      "bytes": 1892,
+      "component": "benny",
+      "disposition": "verbatim_copy",
+      "kind": "automation_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "e5e53013692568cf69da8e8b302fff929fe2fbc9aec1a4651fd7997e2c7a4025",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-benny/resources/benny/skills/triage-issue-reports/references/routing.example.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "automations/benny/skills/triage-issue-reports/references/routing.example.md",
+      "source_sha256": "e5e53013692568cf69da8e8b302fff929fe2fbc9aec1a4651fd7997e2c7a4025"
+    },
+    {
+      "bytes": 2424,
+      "component": "benny",
+      "disposition": "verbatim_copy",
+      "kind": "automation_template",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "13e24b4ce9b9a0913916e85fe3b080b88d45f8e55dccfe8ae38e0751a997b6f5",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-benny/resources/benny/templates/configuration.example.yaml",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "automations/benny/templates/configuration.example.yaml",
+      "source_sha256": "13e24b4ce9b9a0913916e85fe3b080b88d45f8e55dccfe8ae38e0751a997b6f5"
+    },
+    {
+      "bytes": 1822,
+      "component": "benny",
+      "disposition": "verbatim_copy",
+      "kind": "automation_template",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "71ec574f1844e379394ae4ef14c48d7df10afbaa319d395c788d7f856f0e6899",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-benny/resources/benny/templates/reproduce-automation-prompt.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "automations/benny/templates/reproduce-automation-prompt.md",
+      "source_sha256": "71ec574f1844e379394ae4ef14c48d7df10afbaa319d395c788d7f856f0e6899"
+    },
+    {
+      "bytes": 1569,
+      "component": "benny",
+      "disposition": "verbatim_copy",
+      "kind": "automation_template",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "e0bba594547834f013ec805915610eb597e7929efe3ffbe85ae00339ee16d474",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack-benny/resources/benny/templates/triage-automation-prompt.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "automations/benny/templates/triage-automation-prompt.md",
+      "source_sha256": "e0bba594547834f013ec805915610eb597e7929efe3ffbe85ae00339ee16d474"
+    },
+    {
+      "bytes": 2798,
+      "component": "guide",
+      "disposition": "mechanical_patch",
+      "kind": "guide_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "6ae29a10972169d9510fc50191ebaa3d963787c4ac8a74eeab8ab91e3421014c",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-GUIDE-COMMANDS"
+      ],
+      "port_target": "docs/upstream-guide/01-setup.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/01-setup.md",
+      "source_sha256": "e6e501f8f58405dcffab8a71f829bf0985466a28f23f49ef29a301f5e8a62087"
+    },
+    {
+      "bytes": 4726,
+      "component": "guide",
+      "disposition": "mechanical_patch",
+      "kind": "guide_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "19485cde54b9545108156bdf9735f8e4ce487a5bb73bd3ac1a2c0a20e8cef8d6",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-GUIDE-COMMANDS"
+      ],
+      "port_target": "docs/upstream-guide/02-poteto-mode.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/02-poteto-mode.md",
+      "source_sha256": "528ef62a66ae0ac74cf3eb489b960a80ee4370e0256342cb2b94c6712241c8aa"
+    },
+    {
+      "bytes": 3794,
+      "component": "guide",
+      "disposition": "mechanical_patch",
+      "kind": "guide_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "f81632cdc09e63b74872e6d6da80990223312ce40f764547f19e31f3af9923a3",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-GUIDE-COMMANDS"
+      ],
+      "port_target": "docs/upstream-guide/03-understand.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/03-understand.md",
+      "source_sha256": "0a42633faaa03cbc3c8d48cc3987c3a2f5924ff3b4651d045486933cbc5f1b10"
+    },
+    {
+      "bytes": 4866,
+      "component": "guide",
+      "disposition": "mechanical_patch",
+      "kind": "guide_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "dd439476c2f3ee2dceb50234000a8d88a91edec9cb7187e5274518fbabb56481",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-GUIDE-COMMANDS"
+      ],
+      "port_target": "docs/upstream-guide/04-design.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/04-design.md",
+      "source_sha256": "21e820ff73c0b70682aa570a967ede446b4d7caf62e8f391d0dd733ccb74874c"
+    },
+    {
+      "bytes": 4763,
+      "component": "guide",
+      "disposition": "mechanical_patch",
+      "kind": "guide_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "c88f98033d9453fe0ea9703dfbd1fa135361244b843e380a0114c3f3a0c83728",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-GUIDE-COMMANDS"
+      ],
+      "port_target": "docs/upstream-guide/05-build-and-clean.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/05-build-and-clean.md",
+      "source_sha256": "6bd421b43a3cf9fec3cd201fd40ce65fd8c657264eac48b0c9a175b6afd7c252"
+    },
+    {
+      "bytes": 5955,
+      "component": "guide",
+      "disposition": "mechanical_patch",
+      "kind": "guide_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "2e51e4e17a7261b66a69c2240c02bf6b6868f2042eaa6ac395466ecfe32f0ba7",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-GUIDE-COMMANDS"
+      ],
+      "port_target": "docs/upstream-guide/06-verify-and-ship.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/06-verify-and-ship.md",
+      "source_sha256": "12e0540d20ac06b2b01ff4be7023f1e83d510882cd95f56d8ea52a53ab8ccf8a"
+    },
+    {
+      "bytes": 5354,
+      "component": "guide",
+      "disposition": "mechanical_patch",
+      "kind": "guide_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "cf1bf6cc035badb33d5d12ad48dff3e248cd5fb9b38b8635fd4356ca0dafdedf",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-GUIDE-COMMANDS"
+      ],
+      "port_target": "docs/upstream-guide/07-overnight.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/07-overnight.md",
+      "source_sha256": "d3ff086392beb2a0da27a6ef881cb280a9d0a4214ef9b3d36173ac11d7c6c708"
+    },
+    {
+      "bytes": 4779,
+      "component": "guide",
+      "disposition": "mechanical_patch",
+      "kind": "guide_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "5f838b74f8c8bdb6d9f755957f602906ddc8ac91c23fa416e64ca6e61b3d5a43",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-GUIDE-COMMANDS"
+      ],
+      "port_target": "docs/upstream-guide/08-principles.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/08-principles.md",
+      "source_sha256": "34c0b6d6f789738cc05fdfbc2d8f8e6a45f52acc47f78752f4ee28c1525bc576"
+    },
+    {
+      "bytes": 4641,
+      "component": "guide",
+      "disposition": "mechanical_patch",
+      "kind": "guide_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "7c6806b046902613435333e541638eafe9b6833740b98022a55a6c02d16ea0d1",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-GUIDE-COMMANDS"
+      ],
+      "port_target": "docs/upstream-guide/09-make-it-yours.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/09-make-it-yours.md",
+      "source_sha256": "b98588a232a38ca7acebbeecb95ac771df1981aed662dcb45c96b4b66ed20ec0"
+    },
+    {
+      "bytes": 4598,
+      "component": "guide",
+      "disposition": "mechanical_patch",
+      "kind": "guide_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "11c0d98427f17e112918c3cb74a963e9cc6eec09d9f8ec36395dd54e3916bcea",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-GUIDE-COMMANDS"
+      ],
+      "port_target": "docs/upstream-guide/10-recipes-and-pitfalls.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/10-recipes-and-pitfalls.md",
+      "source_sha256": "a4662cd98870f08c6abe117a832abe37670ee84f8ed25dcbe7e99ef4eb8e05e0"
+    },
+    {
+      "bytes": 2011,
+      "component": "guide",
+      "disposition": "mechanical_patch",
+      "kind": "guide_document",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "a6b0c4a2b10811fea26715ed2410d22b3f7ac4964cba55b4f9f073bd23590cdd",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-GUIDE-COMMANDS"
+      ],
+      "port_target": "docs/upstream-guide/README.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/README.md",
+      "source_sha256": "e2921b1ddb06cb8a4aee0d4fa66de340235f47f683bc4919c35eb00121f522d3"
+    },
+    {
+      "bytes": 402373,
+      "component": "guide",
+      "disposition": "verbatim_copy",
+      "kind": "guide_asset",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "b8ed07427f6a0c37dd8ba97961fc0eb5071efeee6c4a230648bdb7547f6f2a8f",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "docs/upstream-guide/images/design.jpg",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/images/design.jpg",
+      "source_sha256": "b8ed07427f6a0c37dd8ba97961fc0eb5071efeee6c4a230648bdb7547f6f2a8f"
+    },
+    {
+      "bytes": 347071,
+      "component": "guide",
+      "disposition": "verbatim_copy",
+      "kind": "guide_asset",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "4b4405e4df8925c5b3abbe702f681af0f3b1f5f32271b599f95717f578f1a0c8",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "docs/upstream-guide/images/overnight.jpg",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/images/overnight.jpg",
+      "source_sha256": "4b4405e4df8925c5b3abbe702f681af0f3b1f5f32271b599f95717f578f1a0c8"
+    },
+    {
+      "bytes": 410550,
+      "component": "guide",
+      "disposition": "verbatim_copy",
+      "kind": "guide_asset",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "9fa2d51b476635712737795ddef81806efaa0086bb3bfa9f9f45695d9ab0f8e8",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "docs/upstream-guide/images/recipes.jpg",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/images/recipes.jpg",
+      "source_sha256": "9fa2d51b476635712737795ddef81806efaa0086bb3bfa9f9f45695d9ab0f8e8"
+    },
+    {
+      "bytes": 450945,
+      "component": "guide",
+      "disposition": "verbatim_copy",
+      "kind": "guide_asset",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "525843055a4efd2b10acc50a8652fd02b0834ea733a8a2f895c1eb89036017da",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "docs/upstream-guide/images/router.jpg",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/images/router.jpg",
+      "source_sha256": "525843055a4efd2b10acc50a8652fd02b0834ea733a8a2f895c1eb89036017da"
+    },
+    {
+      "bytes": 376523,
+      "component": "guide",
+      "disposition": "verbatim_copy",
+      "kind": "guide_asset",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "b60587e9a9bbe2550e93be9819cf0cd4acf77d90fac769a0c43d82bd8e34e279",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "docs/upstream-guide/images/understanding.jpg",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/images/understanding.jpg",
+      "source_sha256": "b60587e9a9bbe2550e93be9819cf0cd4acf77d90fac769a0c43d82bd8e34e279"
+    },
+    {
+      "bytes": 331450,
+      "component": "guide",
+      "disposition": "verbatim_copy",
+      "kind": "guide_asset",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "2a76b52007a1cd2866ba67fd47d7d9ef3e1118bb5a09c4665eee8c3f161bd09a",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "docs/upstream-guide/images/verification.jpg",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "docs/guide/images/verification.jpg",
+      "source_sha256": "2a76b52007a1cd2866ba67fd47d7d9ef3e1118bb5a09c4665eee8c3f161bd09a"
+    },
+    {
+      "bytes": 6061,
+      "component": "architect",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "c18e0f4601870e990e6b7d0423eb972117c4971e66883fa32436b73f2fb18a42",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/architect/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/architect/SKILL.md",
+      "source_sha256": "585d7a9e03c0cced84c80d4b60c09c8dc76010bb36c579f92d9e4deafec53df7"
+    },
+    {
+      "bytes": 1944,
+      "component": "architect",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "905066f9bbac81c573c2b325be47751d2c0f9325e0a0772bd4384e82dafe9336",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/architect/references/design-red-flags.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/architect/references/design-red-flags.md",
+      "source_sha256": "905066f9bbac81c573c2b325be47751d2c0f9325e0a0772bd4384e82dafe9336"
+    },
+    {
+      "bytes": 3050,
+      "component": "architect",
+      "disposition": "mechanical_patch",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "1e634945a61abf8ececd410f01faed7c1a13f85007302cf8ef99a24eeccb6405",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/architect/references/rationale-template.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/architect/references/rationale-template.md",
+      "source_sha256": "6645a0e5f68c003298ec95b85a23262bdda0c79f998b926060169b54d9f23fbb"
+    },
+    {
+      "bytes": 3091,
+      "component": "architect",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "3ef8c1452a0382a15b7601c7c94f2a16a00954170d705b7af8cc49ac78080ec9",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/architect/references/runner-prompt.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/architect/references/runner-prompt.md",
+      "source_sha256": "3ef8c1452a0382a15b7601c7c94f2a16a00954170d705b7af8cc49ac78080ec9"
+    },
+    {
+      "bytes": 5367,
+      "component": "arena",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "019d24203704f49d6258993451a469635c939292b4e08a2405e2a2c4551983c8",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/arena/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/arena/SKILL.md",
+      "source_sha256": "a2241e8500a44d9c16bd3260c8c70e28c4bb8a857c33061d42b267057e6f7093"
+    },
+    {
+      "bytes": 7809,
+      "component": "automate-me",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "618d55ca2de40d35088dbfae25fffd0c305b20abedc40d00c50702f78177d393",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/automate-me/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/automate-me/SKILL.md",
+      "source_sha256": "34e7eab6f495093d474817bc4c13f26bcf5fafa439f2761b8c1ec72b07487764"
+    },
+    {
+      "bytes": 4112,
+      "component": "blast-radius",
+      "disposition": "verbatim_copy",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "b060df3ca85803eabbce9fab53f5cc024ca8d784bdde5513c1c1a784947523f8",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/blast-radius/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/blast-radius/SKILL.md",
+      "source_sha256": "b060df3ca85803eabbce9fab53f5cc024ca8d784bdde5513c1c1a784947523f8"
+    },
+    {
+      "bytes": 267,
+      "component": "bro",
+      "disposition": "verbatim_copy",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "aa329d0ceeeecb6822a7174ad76bb07a7826a3c52ceb6a588dec4138815084bb",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/bro/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/bro/SKILL.md",
+      "source_sha256": "aa329d0ceeeecb6822a7174ad76bb07a7826a3c52ceb6a588dec4138815084bb"
+    },
+    {
+      "bytes": 5879,
+      "component": "create-verification-skill",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "ee2e7f33a0d385b0688180b2e567372ed65bda95067ae4e7056e2822502b44ed",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/create-verification-skill/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/create-verification-skill/SKILL.md",
+      "source_sha256": "644f2551403c1bca01a2855b34611b6e7be0ce0dc5b204514c376c0f6a6e6ac4"
+    },
+    {
+      "bytes": 2601,
+      "component": "create-verification-skill",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "cb7bd782cf89968a4ba3d58a5151db837430db92d19a6f52a906973b77b516ba",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/create-verification-skill/references/feature-map-example/README.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/create-verification-skill/references/feature-map-example/README.md",
+      "source_sha256": "cb7bd782cf89968a4ba3d58a5151db837430db92d19a6f52a906973b77b516ba"
+    },
+    {
+      "bytes": 2926,
+      "component": "create-verification-skill",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "644a44c74f35d38c2feb7cd05a0121fdebbb623e8dc376c185b565a581d1ccf7",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/create-verification-skill/references/feature-map-example/create-note.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/create-verification-skill/references/feature-map-example/create-note.md",
+      "source_sha256": "644a44c74f35d38c2feb7cd05a0121fdebbb623e8dc376c185b565a581d1ccf7"
+    },
+    {
+      "bytes": 3478,
+      "component": "create-verification-skill",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "6e87b9e7f2791a7776ba1bb83f371cd285c306c67f19d245cc4dd6ca3015c823",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/create-verification-skill/references/feature-map-example/search.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/create-verification-skill/references/feature-map-example/search.md",
+      "source_sha256": "6e87b9e7f2791a7776ba1bb83f371cd285c306c67f19d245cc4dd6ca3015c823"
+    },
+    {
+      "bytes": 5161,
+      "component": "figure-it-out",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "b7523c722ee1b81a093cebb40b9ffe5da785b6aa44adbc9192d990827ee47edd",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/figure-it-out/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/figure-it-out/SKILL.md",
+      "source_sha256": "548616d04909de854f36869af2af127ce321fc6aaf95ea5a626997709fd46a2a"
+    },
+    {
+      "bytes": 7285,
+      "component": "how",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "cdc7168a564e269e30674e61238c4bd8cbb92ce39445ac2ae1f608216a2516c6",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/how/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/how/SKILL.md",
+      "source_sha256": "fe503e7a9b2a3a7ad2622a2de6124cb06c466922fb44bc61817b49b52042b885"
+    },
+    {
+      "bytes": 2286,
+      "component": "how",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "aa77a15590814c814bd5cb074842029ab7b790c2e8379050525bdbc20739d1bb",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/how/references/critic-prompt.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/how/references/critic-prompt.md",
+      "source_sha256": "aa77a15590814c814bd5cb074842029ab7b790c2e8379050525bdbc20739d1bb"
+    },
+    {
+      "bytes": 2877,
+      "component": "how",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "5774ff2caf51796e54c4a61b63620a165de5801f23c8f47406e527abfbe9addc",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/how/references/critique-rubric.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/how/references/critique-rubric.md",
+      "source_sha256": "5774ff2caf51796e54c4a61b63620a165de5801f23c8f47406e527abfbe9addc"
+    },
+    {
+      "bytes": 3121,
+      "component": "how",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "04336086e7c415394459ca2f461717d920e15339517dbf5a56ca042f8b4fead3",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/how/references/explainer-prompt.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/how/references/explainer-prompt.md",
+      "source_sha256": "04336086e7c415394459ca2f461717d920e15339517dbf5a56ca042f8b4fead3"
+    },
+    {
+      "bytes": 2693,
+      "component": "how",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "fd1218b8cf1f467c644d4ce6fa5e54e6089ede65a28fbbae61f6ee7a2d462f85",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/how/references/explorer-prompt.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/how/references/explorer-prompt.md",
+      "source_sha256": "fd1218b8cf1f467c644d4ce6fa5e54e6089ede65a28fbbae61f6ee7a2d462f85"
+    },
+    {
+      "bytes": 5629,
+      "component": "interrogate",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "cf637aa93225450fd4f9eb42d38223810cae64f4479e7444221d2ce64636b477",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/interrogate/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/interrogate/SKILL.md",
+      "source_sha256": "a009220dfe6869c8f7980a94fb1c9c7763a081a0b32fb6d0afb65b8ff1868146"
+    },
+    {
+      "bytes": 5372,
+      "component": "interrogate",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "2462f1347b99b412b04fcb0577b96d8744c801f792f2651746f9409fd4465dc9",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/interrogate/references/code-quality-review.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/interrogate/references/code-quality-review.md",
+      "source_sha256": "2462f1347b99b412b04fcb0577b96d8744c801f792f2651746f9409fd4465dc9"
+    },
+    {
+      "bytes": 3465,
+      "component": "interrogate",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "d2cea6cc308758201c6b8b82baf780947645f1ab752707ddf97fab374bf473f9",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/interrogate/references/lead-judgment.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/interrogate/references/lead-judgment.md",
+      "source_sha256": "d2cea6cc308758201c6b8b82baf780947645f1ab752707ddf97fab374bf473f9"
+    },
+    {
+      "bytes": 2756,
+      "component": "interrogate",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "a397cc61102add709803d917fb23d726920525bf23e7c06dc4ed0b5cbeb00e54",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/interrogate/references/reviewer-prompt.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/interrogate/references/reviewer-prompt.md",
+      "source_sha256": "a397cc61102add709803d917fb23d726920525bf23e7c06dc4ed0b5cbeb00e54"
+    },
+    {
+      "bytes": 5096,
+      "component": "interrogate",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "a67bf02426f88714634ff481d667db821d4b2cea7b335bcd165fe3126e427fb5",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/interrogate/references/rubric.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/interrogate/references/rubric.md",
+      "source_sha256": "a67bf02426f88714634ff481d667db821d4b2cea7b335bcd165fe3126e427fb5"
+    },
+    {
+      "bytes": 4922,
+      "component": "maintain-verification-skill",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "1a4e15ab67beea82c10494fd7cd40f39a20751df20da4532daa4f6091c7ac7ae",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/maintain-verification-skill/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/maintain-verification-skill/SKILL.md",
+      "source_sha256": "515c0eaa054b3f6be1b1fb06f2c2f173c80fddb58bbcac57576f89c479bc68e8"
+    },
+    {
+      "bytes": 4618,
+      "component": "make-bot-ui",
+      "disposition": "semantic_adapter",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "2f22f6e4488c3196243a7e7151d9c7c1438923f90d518e464131ee284274d989",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-MAKE-BOT-UI"
+      ],
+      "port_target": "packages/pstack/skills/make-bot-ui/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/make-bot-ui/SKILL.md",
+      "source_sha256": "19570abe130a9659f5238a78cabd2768beba448cdfa49bfb14156e08f04813e3"
+    },
+    {
+      "bytes": 2655,
+      "component": "no-comments",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "989286903cfa67428e6cbbb794cc9b77ca73047e9ec1d8c425f00bec8b639abf",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/no-comments/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/no-comments/SKILL.md",
+      "source_sha256": "72d3b153712ab641875f1d7424de0f77375af1cec03707935f08fa7d8f17bbf3"
+    },
+    {
+      "bytes": 18858,
+      "component": "poteto-mode",
+      "disposition": "semantic_adapter",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "586ce320aaedf6d315c45940eb2391973ffe2f0dc9a6f7c54936480024f6e7ec",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-POTETO-RUNTIME-ADAPTER"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/SKILL.md",
+      "source_sha256": "3b6793bdaeada0bfc7291bcc00422093bd8d10e64a9bc3b6707008ba3c4c7316"
+    },
+    {
+      "bytes": 956,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "7b29c4e3f89baf81df04eb3cc2b268f6ae568e14bae7118e93abe6ecaa0c9739",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/authoring-a-skill.md",
+      "source_sha256": "5479e2b3914acccbafd70f8be56520e1774775d9527f79ac255fd31ec554538a"
+    },
+    {
+      "bytes": 2032,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "c2e687511637c7b147d0f3861e5f1842c043c241b373d73da30998fdf0b23cf5",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/autonomous-run.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/autonomous-run.md",
+      "source_sha256": "e4d9e2fc9195dbc521131021c23c6c53d66390048ca3e58be79bdb3d47b9d737"
+    },
+    {
+      "bytes": 5278,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "0af17993ba07398580eb71cab0e1cf8a6538259697d9d355cc7d28ef20441598",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/autopilot-full.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/autopilot-full.md",
+      "source_sha256": "5ad2358069b95003a08dca297ffc792f3446af8458f16cdbc8e7025902d6c018"
+    },
+    {
+      "bytes": 4871,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "5e691f98f915b6ce47b88a90f48ca70bd17e91208c90ec8e9ca52258d1241b18",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/autopilot-stack.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/autopilot-stack.md",
+      "source_sha256": "9ef6ead011127a4cd641ab6979e42e903d15342eef5a2c2b5ab3da028d514311"
+    },
+    {
+      "bytes": 8275,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "645e45a43ca2fc254e9c7c2f398cb48670a77d2e33829083827d6a5b0cbdd6f7",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/babysit.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/babysit.md",
+      "source_sha256": "84eddcd4d1560ca79a81465cf354f08d1267b114c0470e4a87e1266820c92f86"
+    },
+    {
+      "bytes": 2669,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "b38f8ef889a5172d3dea09e13d4918f7621a67499bd2cbf0245b8cf9bd0491aa",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/bug-fix.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/bug-fix.md",
+      "source_sha256": "ffb71024f8af25923e6a937399d6424c07bc09363eb8a81c708c0a68c4afcb9d"
+    },
+    {
+      "bytes": 3114,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "9c875d3535680e5881d21baea818a0bf1197f3016a3f70a3cfb08525684e830f",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/eval.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/eval.md",
+      "source_sha256": "4881699e688353f7f5c64ae6f4db20fe96bf7267b2a77ce5a6198d2abf218ed3"
+    },
+    {
+      "bytes": 3001,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "55426e3bb2ae143066732e2566d09de4ab40c7082b869e98fa865886587e6224",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/feature.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/feature.md",
+      "source_sha256": "a2a04c2e4b273c0c33e4e3a22940049b60b917b064202e39bd34018356aa0926"
+    },
+    {
+      "bytes": 4533,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "4c8fa8e2609ccdfe13c999561832c9cc47bb366e6a05dc465d9f40964b915411",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/hillclimb.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/hillclimb.md",
+      "source_sha256": "0078ed4be36486f257cf0ceeea4aec39e1e4d1900dacbffc58ef242b9037d6b0"
+    },
+    {
+      "bytes": 1124,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "bb28bfe2912511dbb777057326a8ccff3ef279d219e52271dcb5b10f68a38b5b",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/investigation.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/investigation.md",
+      "source_sha256": "bb28bfe2912511dbb777057326a8ccff3ef279d219e52271dcb5b10f68a38b5b"
+    },
+    {
+      "bytes": 11180,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "532e6e14bee9960af79a51eff51b4433523e13de8f31cf08dcb866a5a43600c3",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
+      "source_sha256": "273af50da917358eeb2277a7438dae13a4670889f255ee82b1835670a4206a95"
+    },
+    {
+      "bytes": 3399,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "ef3b855d5d266f4a11cdf8fe3d99ab60b9746aecf62379ede76657a8d3592ea4",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/opening-a-pr.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/opening-a-pr.md",
+      "source_sha256": "61bdec4b0df78d5d3fe2c966cd9b76afcc8686572c9e74c90e28268999f6c5ec"
+    },
+    {
+      "bytes": 17496,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "55feddbda42d008c3325f075133b3a631491f3bd83ffe6019f9489011297f1fe",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/orchestrate.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/orchestrate.md",
+      "source_sha256": "8e2911af902df273504b1589747c13395229bcadc3e1e9448678a75f714dc9f6"
+    },
+    {
+      "bytes": 1509,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "f318919b4189badaf2ebfacc434bc31819697cc36c747b2e9b309e8cdcf42a30",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/pause-safely.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/pause-safely.md",
+      "source_sha256": "5a34883f8daa41596c0f69387f60c083fa826f90004e14952b8c831651a69b3c"
+    },
+    {
+      "bytes": 3530,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "6d12f4a238d7fa4fc2e51db1aab35b6af4052607d4165b0b457f6ff45794c7c3",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/perf-issue.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/perf-issue.md",
+      "source_sha256": "afb819ff5252f9d410a108bad60c42d31a10989b856c48b1993c68abd555b710"
+    },
+    {
+      "bytes": 2532,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "0e539b57aa33deb09472e10ccab2a20cd166a86bea94c50e0b8be39e41164d33",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/prototype.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/prototype.md",
+      "source_sha256": "0e539b57aa33deb09472e10ccab2a20cd166a86bea94c50e0b8be39e41164d33"
+    },
+    {
+      "bytes": 4006,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "c08270156262d169c4082c0e09d41946ffb55fb63ccccd3e4c5e55f60d0c4ba2",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/refactoring.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/refactoring.md",
+      "source_sha256": "437b86120a8044e85aabf77933d03ab8862d0b3635b0aece69cc3b98914ee7a4"
+    },
+    {
+      "bytes": 1414,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "96ac9a3a368e6a31d8a7aa56055e6f7f75e8e773c21b65c0f941c26403c8d105",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/runtime-forensics.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/runtime-forensics.md",
+      "source_sha256": "96ac9a3a368e6a31d8a7aa56055e6f7f75e8e773c21b65c0f941c26403c8d105"
+    },
+    {
+      "bytes": 2121,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "6500c9976e84310fae5ef64442ddaffeb0472b26878ddf072bed07c899034ef7",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/session-pickup.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/session-pickup.md",
+      "source_sha256": "c1a4aa69e32e2950fb66f7351b5cea7bbf8acff9c2aed4a4623585ed688fbf1e"
+    },
+    {
+      "bytes": 4145,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "5c8aedacdc4e167d823f08014d2b49a0f46d268545657ca156de7f26307dd3d9",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/shipping.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/shipping.md",
+      "source_sha256": "828d7360c40ff68f3bf23e5b4e8d1eb826b3ef89436e342ea33ee1288289c39e"
+    },
+    {
+      "bytes": 2080,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "fcae1f68f349072a8b2518f09b73dedeb826192d2ec33befb8906f42292e38be",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/trace-forensics.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/trace-forensics.md",
+      "source_sha256": "fcae1f68f349072a8b2518f09b73dedeb826192d2ec33befb8906f42292e38be"
+    },
+    {
+      "bytes": 1345,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "2eb1054d463c7b4f059d34d5b9c43e967253e316374379c9d0bd61a71d14e50b",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/visual-parity.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/visual-parity.md",
+      "source_sha256": "33165e74665bf8ddec181598c2b21b4a1cd310b1adf23742af90ac0d10652b39"
+    },
+    {
+      "bytes": 2932,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "playbook_resource",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "70bcd14e87353b2407e7fd584f3df20ca2ea6eae0a4a913bc3f838ec4c1476f1",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "poteto-route-cardinality",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/playbooks/worktree-cleanup.md",
+      "source_sha256": "b3a3b23f23972c6db490edc0403a0d717990871308fd57d69bb8438725df5dce"
+    },
+    {
+      "bytes": 9604,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "fb9e5cdc5ce20a1e4d1a5bdece14eac8b0161be19872a2f5fe08acdc32d811a3",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/references/bugbot-triage.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/references/bugbot-triage.md",
+      "source_sha256": "fb9e5cdc5ce20a1e4d1a5bdece14eac8b0161be19872a2f5fe08acdc32d811a3"
+    },
+    {
+      "bytes": 1737,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "runtime_script",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "6071264d0bbbbc7538a5c0260610ad905877d3f3707471354cfe191d144c4b10",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-NO-IMPLICIT-INSTALL"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/bootstrap.ts",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/bootstrap.ts",
+      "source_sha256": "ccd2ed08fd9da9d0d942e5f2491cfc74bb92d8a08fa51755e0da1ac8de287361"
+    },
+    {
+      "bytes": 6679,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "script_build_metadata",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "5b7b799c34361e11da7f0f9e0be04a4b133d903d7da8f13424ec381d22a2af24",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SCRIPT-PATHS"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/bun.lock",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/bun.lock",
+      "source_sha256": "667d9cf7222e9aae3fa42a4be383e657784216e9df115da02227fbc5ac7bbe46"
+    },
+    {
+      "bytes": 7630,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "runtime_script",
+      "mode": "0o755",
+      "output_mode": "0o755",
+      "output_sha256": "09cee47a6734f9f2c4547a9fe92f8b4991228e63ad0748786a9f25027edc7a06",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SCRIPT-PATHS"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/check-plan.mjs",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/check-plan.mjs",
+      "source_sha256": "4f5118edf719b481983dc87dfadd5b4b5473d05aad04a7ba65191ff9c73faf1b"
+    },
+    {
+      "bytes": 18424,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "script_test",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "174b86d21ff51ccd28d1a8c938cb2e0c6fa287b209d4ca6c03932fcb1b53372e",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/orch/orch.test.ts",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/orch/orch.test.ts",
+      "source_sha256": "174b86d21ff51ccd28d1a8c938cb2e0c6fa287b209d4ca6c03932fcb1b53372e"
+    },
+    {
+      "bytes": 15511,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "runtime_script",
+      "mode": "0o755",
+      "output_mode": "0o755",
+      "output_sha256": "f091687df627a0b75fabd54af58945a9cd6c7039ef0622012ac9ed60cd8ec434",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/orch/orch.ts",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/orch/orch.ts",
+      "source_sha256": "f091687df627a0b75fabd54af58945a9cd6c7039ef0622012ac9ed60cd8ec434"
+    },
+    {
+      "bytes": 42927,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "runtime_script",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "0eae7cf69282e827b1227166f2e32cee3560f2f3e65b3f1f2faf6fb83d3b4c5b",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/orch/store.ts",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/orch/store.ts",
+      "source_sha256": "0eae7cf69282e827b1227166f2e32cee3560f2f3e65b3f1f2faf6fb83d3b4c5b"
+    },
+    {
+      "bytes": 352,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "script_build_metadata",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "414804d070f48cc26c4bd6f1e92d055bd1561e912578a459f52219159a5eb721",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SCRIPT-PATHS"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/package.json",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/package.json",
+      "source_sha256": "d1f815091209d49763775cc188e8e06ff32d5fec648bffd2272bc25a165e87c3"
+    },
+    {
+      "bytes": 6161,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "script_test",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "a35592b4c6da96caf8d47987e9cd503fab6c7774ab87d11a43f24b4b5df2a9d1",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/watch-pr/cli.test.ts",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/watch-pr/cli.test.ts",
+      "source_sha256": "a35592b4c6da96caf8d47987e9cd503fab6c7774ab87d11a43f24b4b5df2a9d1"
+    },
+    {
+      "bytes": 6983,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "runtime_script",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "89c08863089181a232be782c4b2ed90a1552f44aeecb0dcb7aac2c623620e680",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/watch-pr/cli.ts",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/watch-pr/cli.ts",
+      "source_sha256": "89c08863089181a232be782c4b2ed90a1552f44aeecb0dcb7aac2c623620e680"
+    },
+    {
+      "bytes": 2944,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "script_test_support",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "e53e31b7f03068063f53a99a3591b052aaed66e4e2b196b3a364980f60324ab1",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/watch-pr/fakes.test-helper.ts",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/watch-pr/fakes.test-helper.ts",
+      "source_sha256": "e53e31b7f03068063f53a99a3591b052aaed66e4e2b196b3a364980f60324ab1"
+    },
+    {
+      "bytes": 9059,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "script_test",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "80491a792a3b21f76d34358b04b1aa9508d29ee24466dff2c5adfa906303fa60",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SCRIPT-PATHS"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/watch-pr/github.test.ts",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/watch-pr/github.test.ts",
+      "source_sha256": "0cbce011050522938523e36bb42a260e92b812dcd2076930fa681672ad316b24"
+    },
+    {
+      "bytes": 24072,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "runtime_script",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "2415d5cf110370380821f45b508f4d9fad032d1918e2ae18616da8f378b653ea",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SCRIPT-PATHS"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/watch-pr/github.ts",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/watch-pr/github.ts",
+      "source_sha256": "d1bbbafbe8e2c703c84da2029de7f2c4011412512f8cf65a42100f46bcb92c8a"
+    },
+    {
+      "bytes": 12397,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "script_test",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "a9fedb25feefd1f57ef6a662f80c99018690170a3a8070773a08eaf694d1d3d9",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/watch-pr/policy.test.ts",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/watch-pr/policy.test.ts",
+      "source_sha256": "a9fedb25feefd1f57ef6a662f80c99018690170a3a8070773a08eaf694d1d3d9"
+    },
+    {
+      "bytes": 25132,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "runtime_script",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "68d240505852cf23c9b2dea463342e9e61243f486b3cc86c735d140f9ee7be49",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/watch-pr/policy.ts",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/watch-pr/policy.ts",
+      "source_sha256": "68d240505852cf23c9b2dea463342e9e61243f486b3cc86c735d140f9ee7be49"
+    },
+    {
+      "bytes": 7083,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "runtime_script",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "2b709e86628d5b8fdb61f860e60ababc342b0626c67576305442cf548283a604",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/watch-pr/render.ts",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/watch-pr/render.ts",
+      "source_sha256": "2b709e86628d5b8fdb61f860e60ababc342b0626c67576305442cf548283a604"
+    },
+    {
+      "bytes": 270,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "script_build_metadata",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "1ecccc72320b086c63ce3f73c959896fd747363e63553b3b1136296ea4069e45",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/watch-pr/tsconfig.json",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/watch-pr/tsconfig.json",
+      "source_sha256": "1ecccc72320b086c63ce3f73c959896fd747363e63553b3b1136296ea4069e45"
+    },
+    {
+      "bytes": 2258,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "runtime_script",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "621af4c9a664fbf699a9737efccdc248abb416df8819c9dc5f824beae2b9b1d6",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/watch-pr/types.compile.ts",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/watch-pr/types.compile.ts",
+      "source_sha256": "621af4c9a664fbf699a9737efccdc248abb416df8819c9dc5f824beae2b9b1d6"
+    },
+    {
+      "bytes": 12359,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "runtime_script",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "64ba6221e3bfe61bbb292337d199cdec6309455477280efb060203dba34e0e91",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/watch-pr/types.ts",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/watch-pr/types.ts",
+      "source_sha256": "64ba6221e3bfe61bbb292337d199cdec6309455477280efb060203dba34e0e91"
+    },
+    {
+      "bytes": 211,
+      "component": "poteto-mode",
+      "disposition": "verbatim_copy",
+      "kind": "runtime_script",
+      "mode": "0o755",
+      "output_mode": "0o755",
+      "output_sha256": "d955603be6cc0e8b8ffcec722f635192b2261410b1f2929abea94480e47eb5d4",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/watch-pr/watch-pr",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/watch-pr/watch-pr",
+      "source_sha256": "d955603be6cc0e8b8ffcec722f635192b2261410b1f2929abea94480e47eb5d4"
+    },
+    {
+      "bytes": 3984,
+      "component": "poteto-mode",
+      "disposition": "mechanical_patch",
+      "kind": "runtime_script",
+      "mode": "0o755",
+      "output_mode": "0o755",
+      "output_sha256": "8d0d52c6e84a1ce2b1400643e574f3ecaacc7c13be366327f3d2d1904fdc6aa4",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SCRIPT-PATHS"
+      ],
+      "port_target": "packages/pstack/skills/poteto-mode/scripts/worktree-audit.sh",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/poteto-mode/scripts/worktree-audit.sh",
+      "source_sha256": "95b8530f3c0ccada8cabc4b0727c052fbc85c141531375aaace65c427af8aecc"
+    },
+    {
+      "bytes": 1919,
+      "component": "principle-boundary-discipline",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "ab3c690ce361542ca00446b8406f5afd47776f544b8ce06a9ef2eaa2338bde6d",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-boundary-discipline/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-boundary-discipline/SKILL.md",
+      "source_sha256": "ab3c690ce361542ca00446b8406f5afd47776f544b8ce06a9ef2eaa2338bde6d"
+    },
+    {
+      "bytes": 2655,
+      "component": "principle-build-the-lever",
+      "disposition": "mechanical_patch",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "c5867cd2e2399ef9042c8b12c4e521ed944f738ef5129a44a009c0eb9fb4531c",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/principle-build-the-lever/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-build-the-lever/SKILL.md",
+      "source_sha256": "3a0b02b1b890538810f27d00c525b2e677bb5d931f602fd7a774d5cd13b61c93"
+    },
+    {
+      "bytes": 2243,
+      "component": "principle-encode-lessons-in-structure",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "4acdb3f466efd0a433899aafce3e0f100566228b63ccff43f363a83e80624d81",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-encode-lessons-in-structure/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-encode-lessons-in-structure/SKILL.md",
+      "source_sha256": "4acdb3f466efd0a433899aafce3e0f100566228b63ccff43f363a83e80624d81"
+    },
+    {
+      "bytes": 1152,
+      "component": "principle-exhaust-the-design-space",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "8583310d7297b7823d75494faa57b003564d436807febecdecbd8321abe5cf6e",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-exhaust-the-design-space/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-exhaust-the-design-space/SKILL.md",
+      "source_sha256": "8583310d7297b7823d75494faa57b003564d436807febecdecbd8321abe5cf6e"
+    },
+    {
+      "bytes": 1308,
+      "component": "principle-experience-first",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "f8d643ddf2f6aa91d9607d1bb340fd2baf227d702e9738848b85312a312bb971",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-experience-first/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-experience-first/SKILL.md",
+      "source_sha256": "f8d643ddf2f6aa91d9607d1bb340fd2baf227d702e9738848b85312a312bb971"
+    },
+    {
+      "bytes": 1366,
+      "component": "principle-fix-root-causes",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "cfae13b5a3e27bc88d069092cae97b3e95246879d5bf14f0e9a4db719c781952",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-fix-root-causes/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-fix-root-causes/SKILL.md",
+      "source_sha256": "cfae13b5a3e27bc88d069092cae97b3e95246879d5bf14f0e9a4db719c781952"
+    },
+    {
+      "bytes": 1780,
+      "component": "principle-foundational-thinking",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "a522488c9d4481e8bfcbe35cbf3838169c8e3801ee0738ae2859067684144579",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-foundational-thinking/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-foundational-thinking/SKILL.md",
+      "source_sha256": "a522488c9d4481e8bfcbe35cbf3838169c8e3801ee0738ae2859067684144579"
+    },
+    {
+      "bytes": 1152,
+      "component": "principle-guard-the-context-window",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "291d0125125eabbc2109c880b1c1083aa95826187119a648b26c1c8ea6367179",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-guard-the-context-window/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-guard-the-context-window/SKILL.md",
+      "source_sha256": "291d0125125eabbc2109c880b1c1083aa95826187119a648b26c1c8ea6367179"
+    },
+    {
+      "bytes": 1520,
+      "component": "principle-laziness-protocol",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "8999fda9fde65fd905835c86e3bfc64190369a84bba30b1e93769f39ad6580fe",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-laziness-protocol/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-laziness-protocol/SKILL.md",
+      "source_sha256": "8999fda9fde65fd905835c86e3bfc64190369a84bba30b1e93769f39ad6580fe"
+    },
+    {
+      "bytes": 1390,
+      "component": "principle-make-operations-idempotent",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "540738217c3da7bf513b9886924ad6a2bc77e58be867f5bd2e1831c74bf2ce70",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-make-operations-idempotent/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-make-operations-idempotent/SKILL.md",
+      "source_sha256": "540738217c3da7bf513b9886924ad6a2bc77e58be867f5bd2e1831c74bf2ce70"
+    },
+    {
+      "bytes": 1152,
+      "component": "principle-migrate-callers-then-delete-legacy-apis",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "e29b6b6534a23dcaf8c7e16fc25d6484000d7b6e289c48eb0a32a97280633c5d",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "source_sha256": "e29b6b6534a23dcaf8c7e16fc25d6484000d7b6e289c48eb0a32a97280633c5d"
+    },
+    {
+      "bytes": 2099,
+      "component": "principle-minimize-reader-load",
+      "disposition": "mechanical_patch",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "39f95bf1de49f7b43d67798a133b82f45e1895d0cdb2eb6249fa23f2996c972d",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/principle-minimize-reader-load/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-minimize-reader-load/SKILL.md",
+      "source_sha256": "480f4ddec29e7e3058a8f17eb97c0cec4a2c8b4b33ba6401e960167c1fc95a81"
+    },
+    {
+      "bytes": 2127,
+      "component": "principle-model-the-domain",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "6b359783c5c9be87860d0999321e864940ff17729b9f9a27f38abae449640022",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-model-the-domain/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-model-the-domain/SKILL.md",
+      "source_sha256": "6b359783c5c9be87860d0999321e864940ff17729b9f9a27f38abae449640022"
+    },
+    {
+      "bytes": 1596,
+      "component": "principle-never-block-on-the-human",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "f656f3b7581df55e79f53cc47df93905c3a940b822c25071ba95f40e530d102a",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-never-block-on-the-human/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-never-block-on-the-human/SKILL.md",
+      "source_sha256": "f656f3b7581df55e79f53cc47df93905c3a940b822c25071ba95f40e530d102a"
+    },
+    {
+      "bytes": 1132,
+      "component": "principle-outcome-oriented-execution",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "beedcaed75572a6a1662d47f16da203c2bd2c9dbffbbd678d4ba187d67b7e670",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-outcome-oriented-execution/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-outcome-oriented-execution/SKILL.md",
+      "source_sha256": "beedcaed75572a6a1662d47f16da203c2bd2c9dbffbbd678d4ba187d67b7e670"
+    },
+    {
+      "bytes": 2068,
+      "component": "principle-prove-it-works",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "9bbe6138505be34d81e9395d95d3639b384f71d71d65cc1903075126e1da1508",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-prove-it-works/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-prove-it-works/SKILL.md",
+      "source_sha256": "9bbe6138505be34d81e9395d95d3639b384f71d71d65cc1903075126e1da1508"
+    },
+    {
+      "bytes": 943,
+      "component": "principle-redesign-from-first-principles",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "9ae97b35d6338cc9e34c7023c995a39cb7afdaf4bfd41e1d3d665da04d7515d5",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-redesign-from-first-principles/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-redesign-from-first-principles/SKILL.md",
+      "source_sha256": "9ae97b35d6338cc9e34c7023c995a39cb7afdaf4bfd41e1d3d665da04d7515d5"
+    },
+    {
+      "bytes": 1631,
+      "component": "principle-separate-before-serializing-shared-state",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "5b14fd656441580061f760968c828f3f4ba034242d8fa06b544763efb25e89ee",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "source_sha256": "5b14fd656441580061f760968c828f3f4ba034242d8fa06b544763efb25e89ee"
+    },
+    {
+      "bytes": 2290,
+      "component": "principle-sequence-verifiable-units",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "7478f8160ba5701ca40c742a81e90aff12d45f53ac9191e80ad79b9763e4489f",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-sequence-verifiable-units/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-sequence-verifiable-units/SKILL.md",
+      "source_sha256": "7478f8160ba5701ca40c742a81e90aff12d45f53ac9191e80ad79b9763e4489f"
+    },
+    {
+      "bytes": 1337,
+      "component": "principle-subtract-before-you-add",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "3999888dc21ced33b86054c2ffde1a3cb438e16bed1213f5dab2b5c000446292",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-subtract-before-you-add/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-subtract-before-you-add/SKILL.md",
+      "source_sha256": "3999888dc21ced33b86054c2ffde1a3cb438e16bed1213f5dab2b5c000446292"
+    },
+    {
+      "bytes": 5097,
+      "component": "principle-type-system-discipline",
+      "disposition": "verbatim_copy",
+      "kind": "principle_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "662ed1ad53fb491e97b9c4eac7317fba8ec5ed722fec8d71beb94da0111619cf",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/principle-type-system-discipline/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/principle-type-system-discipline/SKILL.md",
+      "source_sha256": "662ed1ad53fb491e97b9c4eac7317fba8ec5ed722fec8d71beb94da0111619cf"
+    },
+    {
+      "bytes": 5696,
+      "component": "recall",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "6be63217570571e921f6b38873a1afdbc2d728c3f0f40f0d9d25616fd6eba68c",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/recall/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/recall/SKILL.md",
+      "source_sha256": "90d290daec500f548a167bbd20d69a3a248e345c546ca847ca12967d1c99cbf3"
+    },
+    {
+      "bytes": 5045,
+      "component": "reflect",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "33f8b02d961faffac7e9f9d4419283d328d2df7f0c7c7e7d4e48bdea87bce80d",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/reflect/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/reflect/SKILL.md",
+      "source_sha256": "5485347991eb60ee226ca78c5972f9c694f6927cff3263b7f48b631ed7a9de56"
+    },
+    {
+      "bytes": 3956,
+      "component": "reflect",
+      "disposition": "mechanical_patch",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "6ce30814e357138771df0777c551485a0362d5bebd0c4ee2340f557f61c0cd9b",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/reflect/references/divergent-reviewer.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/reflect/references/divergent-reviewer.md",
+      "source_sha256": "823167d485c8fc424530ac4eff447f132a10e318a2db35380312c7e843f17683"
+    },
+    {
+      "bytes": 3322,
+      "component": "reflect",
+      "disposition": "mechanical_patch",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "f3801b9591276cec2646c6f343de04e19728465d77798bc524e1a8043dffea82",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/reflect/references/judgment-reviewer.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/reflect/references/judgment-reviewer.md",
+      "source_sha256": "8db7a315ccf9280486b4df08b1277ba0fe4c4ac533ad3719945aa1aab2ebddea"
+    },
+    {
+      "bytes": 4164,
+      "component": "reflect",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "52767b4566c37df0adc6350fff1c5c7a919a1178c2be539e0efbf920f2803702",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/reflect/references/synthesizer.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/reflect/references/synthesizer.md",
+      "source_sha256": "52767b4566c37df0adc6350fff1c5c7a919a1178c2be539e0efbf920f2803702"
+    },
+    {
+      "bytes": 4795,
+      "component": "reflect",
+      "disposition": "mechanical_patch",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "bcb1ea1bd62321999b296a93bfc5e83c5a79f6213462a4cebd1a2b672550b4ed",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/reflect/references/tooling-reviewer.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/reflect/references/tooling-reviewer.md",
+      "source_sha256": "3a4dc9e87d0d74b46d0d0bc2c1af6acba10be7c95d1adafeab6ec5701e247933"
+    },
+    {
+      "bytes": 4648,
+      "component": "setup-pstack",
+      "disposition": "semantic_adapter",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "b86e6cec260aed1e761e1f6bf4895ee604c8d98246f4d3c1ff0da08ca79a3857",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-SETUP-RUNTIME-CONFIG"
+      ],
+      "port_target": "packages/pstack/skills/setup-pstack/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/setup-pstack/SKILL.md",
+      "source_sha256": "3b62d9fd4cce8f450b36b2bc6b1df2f00d887e0a3abd55e7fc1ccbde5db96cea"
+    },
+    {
+      "bytes": 6762,
+      "component": "show-me-your-work",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "3326e49bc7df0ed08f9b51cae4e54b209f52300486c2003c9945e2d272a05dc5",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/show-me-your-work/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/show-me-your-work/SKILL.md",
+      "source_sha256": "b99833c41a8781a6af191487f1af37711a3198b98f9373e3c02292b8a6e09aba"
+    },
+    {
+      "bytes": 38,
+      "component": "show-me-your-work",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "6779378006a2f5225e8c06deb84f1d913fb532041ebbb6e50d94600bfe3f4b76",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/show-me-your-work/references/decision-log-template.tsv",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/show-me-your-work/references/decision-log-template.tsv",
+      "source_sha256": "6779378006a2f5225e8c06deb84f1d913fb532041ebbb6e50d94600bfe3f4b76"
+    },
+    {
+      "bytes": 1234,
+      "component": "show-me-your-work",
+      "disposition": "verbatim_copy",
+      "kind": "runtime_script",
+      "mode": "0o755",
+      "output_mode": "0o755",
+      "output_sha256": "1601bc18f9aba0af3f5d6375e4f2d5dc6102334d1bca935026c0e3547cdadbbf",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/show-me-your-work/scripts/log.sh",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/show-me-your-work/scripts/log.sh",
+      "source_sha256": "1601bc18f9aba0af3f5d6375e4f2d5dc6102334d1bca935026c0e3547cdadbbf"
+    },
+    {
+      "bytes": 2232,
+      "component": "swarm",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "08f7eb7b82d497ed785f941d7676bf0c62a0355d2880cff733bdce414cdc44fb",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/swarm/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/swarm/SKILL.md",
+      "source_sha256": "8e6494e296af5496cacb0fb83f33f647c84286d2e1d1b85580bc0f0f577a81cd"
+    },
+    {
+      "bytes": 3536,
+      "component": "tdd",
+      "disposition": "verbatim_copy",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "adad031f9e79d7f7389fa128f7af8e03344831270e282cf4e40bdacb8418c386",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/tdd/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/tdd/SKILL.md",
+      "source_sha256": "adad031f9e79d7f7389fa128f7af8e03344831270e282cf4e40bdacb8418c386"
+    },
+    {
+      "bytes": 6253,
+      "component": "teach",
+      "disposition": "verbatim_copy",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "0a5987b0588dc56e14bfd84d0300e2ab405abc7c5c2aa81e0d3d7c6b243db7a7",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/teach/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/teach/SKILL.md",
+      "source_sha256": "0a5987b0588dc56e14bfd84d0300e2ab405abc7c5c2aa81e0d3d7c6b243db7a7"
+    },
+    {
+      "bytes": 11522,
+      "component": "technical-writing",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "3c11d7a4ce1ecb6fffd23601e1e091eb60b2e4ae81515086be26a775d98e62e1",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/technical-writing/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/technical-writing/SKILL.md",
+      "source_sha256": "bd0cb21034f4fe6695cfdf8cd3561026eec943f0bb6e9300bc78a2b3340865a7"
+    },
+    {
+      "bytes": 2532,
+      "component": "typescript-best-practices",
+      "disposition": "verbatim_copy",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "df0ecd7518b33778f4b02c2f85ee577bbaea52caa1c49df6816b0594e128bb64",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/typescript-best-practices/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/typescript-best-practices/SKILL.md",
+      "source_sha256": "df0ecd7518b33778f4b02c2f85ee577bbaea52caa1c49df6816b0594e128bb64"
+    },
+    {
+      "bytes": 8695,
+      "component": "typescript-best-practices",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "83d89dd2fdb81021eb18c77c57437f60314a60da79447756a547f08ece64b433",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/typescript-best-practices/references/patterns.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/typescript-best-practices/references/patterns.md",
+      "source_sha256": "83d89dd2fdb81021eb18c77c57437f60314a60da79447756a547f08ece64b433"
+    },
+    {
+      "bytes": 6595,
+      "component": "unslop",
+      "disposition": "verbatim_copy",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "181883e539caec8258ec9129e3ba5f133409144a2cbf2aa361158ab94cfc3441",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/unslop/SKILL.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/unslop/SKILL.md",
+      "source_sha256": "181883e539caec8258ec9129e3ba5f133409144a2cbf2aa361158ab94cfc3441"
+    },
+    {
+      "bytes": 21343,
+      "component": "why",
+      "disposition": "mechanical_patch",
+      "kind": "workflow_skill",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "f3f199a5951ada97f789884b56983b6fa5c1d0b2166091d0940cc5569bdc88d8",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity",
+        "first-class-component",
+        "patch-registry",
+        "pending-receipt-discipline"
+      ],
+      "patch_ids": [
+        "PATCH-HERMES-SKILL-PRIMITIVES"
+      ],
+      "port_target": "packages/pstack/skills/why/SKILL.md",
+      "review_state": "adapted_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/SKILL.md",
+      "source_sha256": "dc8f2d8a7dbef7d0467cca8e6d055a4dbde027db6e2cbbfb18aa9071d8f20b6c"
+    },
+    {
+      "bytes": 7749,
+      "component": "why",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "ba99dcdc4fbce91a83b50fc0c9b2c5769febd95540b1722c6b87fe8f900bb60a",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/why/references/epistemics.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/references/epistemics.md",
+      "source_sha256": "ba99dcdc4fbce91a83b50fc0c9b2c5769febd95540b1722c6b87fe8f900bb60a"
+    },
+    {
+      "bytes": 6985,
+      "component": "why",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "e35d8eaea13f0a027dd35572d525e9f66e8f8918ca9e555237dc228f26278d5f",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/why/references/investigator-prompt.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/references/investigator-prompt.md",
+      "source_sha256": "e35d8eaea13f0a027dd35572d525e9f66e8f8918ca9e555237dc228f26278d5f"
+    },
+    {
+      "bytes": 1363,
+      "component": "why",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "3cfb0245d5b2019eeeaa7a0e023579d390f2cdcdff6942d2fe009b9efac0eb11",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/why/references/source-playbook.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/references/source-playbook.md",
+      "source_sha256": "3cfb0245d5b2019eeeaa7a0e023579d390f2cdcdff6942d2fe009b9efac0eb11"
+    },
+    {
+      "bytes": 3489,
+      "component": "why",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "8c14aa382f0de40829b2668d43e3f54814480bb93a486c9282ada4003f6b9dbd",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/why/references/sources/code-archaeology.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/references/sources/code-archaeology.md",
+      "source_sha256": "8c14aa382f0de40829b2668d43e3f54814480bb93a486c9282ada4003f6b9dbd"
+    },
+    {
+      "bytes": 6994,
+      "component": "why",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "269a22032f027ee30a33c1b5e30443d13dd6d127ff20d8d1e8a20715b06a69cc",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/why/references/sources/databricks.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/references/sources/databricks.md",
+      "source_sha256": "269a22032f027ee30a33c1b5e30443d13dd6d127ff20d8d1e8a20715b06a69cc"
+    },
+    {
+      "bytes": 5323,
+      "component": "why",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "db80803f1635a5015e3190f4753c4228083e6cebf222c84e24fc3c3919aa5574",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/why/references/sources/datadog.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/references/sources/datadog.md",
+      "source_sha256": "db80803f1635a5015e3190f4753c4228083e6cebf222c84e24fc3c3919aa5574"
+    },
+    {
+      "bytes": 1973,
+      "component": "why",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "486132457d3782eea64292ce7a2d3bbe3b24b372b20ca00de4329e820f74cd42",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/why/references/sources/incident-postmortem.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/references/sources/incident-postmortem.md",
+      "source_sha256": "486132457d3782eea64292ce7a2d3bbe3b24b372b20ca00de4329e820f74cd42"
+    },
+    {
+      "bytes": 2996,
+      "component": "why",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "7e1b72ba459089168efd701502f8c268d2481154aeeda1ddd84f840f7e974760",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/why/references/sources/linear.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/references/sources/linear.md",
+      "source_sha256": "7e1b72ba459089168efd701502f8c268d2481154aeeda1ddd84f840f7e974760"
+    },
+    {
+      "bytes": 2853,
+      "component": "why",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "2ce336dd3052967187a56ec33d308c7a69e7ef3b04ba7b17386a8b3914a0f000",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/why/references/sources/notion.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/references/sources/notion.md",
+      "source_sha256": "2ce336dd3052967187a56ec33d308c7a69e7ef3b04ba7b17386a8b3914a0f000"
+    },
+    {
+      "bytes": 4947,
+      "component": "why",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "0eef902cb0f835f7fa9bd85a8e19ba1505d05e59a0173dfe852d8d52d828266d",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/why/references/sources/sentry.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/references/sources/sentry.md",
+      "source_sha256": "0eef902cb0f835f7fa9bd85a8e19ba1505d05e59a0173dfe852d8d52d828266d"
+    },
+    {
+      "bytes": 3105,
+      "component": "why",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "60e4c8dbb941f563c86aec7267cde66443b1dc651422569c8d112bc9da7551f6",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/why/references/sources/slack.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/references/sources/slack.md",
+      "source_sha256": "60e4c8dbb941f563c86aec7267cde66443b1dc651422569c8d112bc9da7551f6"
+    },
+    {
+      "bytes": 7984,
+      "component": "why",
+      "disposition": "verbatim_copy",
+      "kind": "skill_reference",
+      "mode": "0o644",
+      "output_mode": "0o644",
+      "output_sha256": "fcdc69ede22f94da9e22f510bb0c4a75a63820f0b49b8d5fd54a196b4010bf2a",
+      "output_state": "emitted",
+      "parity_tests": [
+        "source-integrity",
+        "target-identity"
+      ],
+      "patch_ids": [],
+      "port_target": "packages/pstack/skills/why/references/synthesizer-prompt.md",
+      "review_state": "materialized_verified",
+      "source_commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+      "source_path": "skills/why/references/synthesizer-prompt.md",
+      "source_sha256": "fcdc69ede22f94da9e22f510bb0c4a75a63820f0b49b8d5fd54a196b4010bf2a"
+    }
+  ],
+  "entry_count": 157,
+  "expected_counts": {
+    "agent_prompts": 2,
+    "benny_skills": 3,
+    "declared_tests": 52,
+    "executable_test_suites": 4,
+    "guide_documents": 11,
+    "guide_images": 6,
+    "playbook_files": 23,
+    "principle_skills": 21,
+    "reference_files": 37,
+    "registered_skills": 45,
+    "routed_playbooks": 22,
+    "script_tree_files": 21,
+    "shared_postludes": 1,
+    "source_bytes": 3091772,
+    "source_paths": 157,
+    "workflow_skills": 24
+  },
+  "kind_counts": {
+    "agent_prompt": 2,
+    "automation_document": 2,
+    "automation_reference": 4,
+    "automation_skill": 3,
+    "automation_template": 3,
+    "guide_asset": 6,
+    "guide_document": 11,
+    "playbook_resource": 23,
+    "plugin_manifest": 1,
+    "principle_skill": 21,
+    "root_file": 3,
+    "runtime_script": 13,
+    "script_build_metadata": 3,
+    "script_test": 4,
+    "script_test_support": 1,
+    "skill_reference": 33,
+    "workflow_skill": 24
+  },
+  "poteto_contract": {
+    "routed_playbooks": [
+      "authoring-a-skill.md",
+      "autonomous-run.md",
+      "autopilot-full.md",
+      "autopilot-stack.md",
+      "babysit.md",
+      "bug-fix.md",
+      "eval.md",
+      "feature.md",
+      "hillclimb.md",
+      "investigation.md",
+      "multi-phase-plan.md",
+      "orchestrate.md",
+      "pause-safely.md",
+      "perf-issue.md",
+      "prototype.md",
+      "refactoring.md",
+      "runtime-forensics.md",
+      "session-pickup.md",
+      "shipping.md",
+      "trace-forensics.md",
+      "visual-parity.md",
+      "worktree-cleanup.md"
+    ],
+    "shared_postlude": "opening-a-pr.md"
+  },
+  "schema": {
+    "disposition_vocabulary": {
+      "mechanical_patch": "Documented mechanical translation emitted and receipt verified.",
+      "mechanical_patch_pending": "A documented syntax/primitive translation is required; no output receipt exists.",
+      "provenance_copy": "Exact provenance copy emitted and receipt verified.",
+      "provenance_copy_pending": "Exact archival copy is planned under provenance; no output receipt exists.",
+      "semantic_adapter": "Documented semantic adapter emitted and receipt verified.",
+      "semantic_adapter_pending": "A documented behavior-preserving Hermes adapter is required; no output receipt exists.",
+      "verbatim_copy": "Exact copy emitted and receipt verified.",
+      "verbatim_copy_pending": "Exact copy is planned; no output receipt exists."
+    },
+    "emitted_output_rule": "output_state=emitted requires a verified output_sha256 and output_mode receipt.",
+    "patch_rule": "Every patch_ids value must resolve in provenance/patches/index.json.",
+    "pending_output_rule": "output_state=pending requires output_sha256 and output_mode to be null.",
+    "row_identity": "Exactly one row per upstream regular file, keyed by source_path.",
+    "target_rule": "Every port_target is unique, repository-relative, path-safe, and preserves its first-class upstream component."
+  },
+  "schema_version": 2,
+  "unclassified": [],
+  "upstream": {
+    "author": "Lauren Tan",
+    "commit": "6fecddba65801f9b9c08b8b328d998ee5b09d290",
+    "file_count": 157,
+    "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
+    "license": {
+      "copyright": "Copyright (c) 2026 Lauren Tan",
+      "source_path": "LICENSE",
+      "source_sha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "spdx": "MIT"
+    },
+    "name": "pstack",
+    "repository": "https://github.com/cursor/plugins",
+    "subtree": "pstack",
+    "total_bytes": 3091772,
+    "tree_hash_algorithm": "sha256(sorted(4-byte-be-path-length || utf8-posix-path || raw-file-sha256))",
+    "tree_sha256": "0b261012eb982e45472b5e368592da26a8c15c92bb12dd680d3786b997c57177",
+    "version": "0.14.5"
+  }
+}

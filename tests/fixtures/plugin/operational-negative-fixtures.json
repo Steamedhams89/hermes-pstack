@@ -1,0 +1,10 @@
+{
+  "unsupported_sibling_slashes": {
+    "skills/no-comments/SKILL.md": ["/how", "/why", "/architect"],
+    "skills/create-verification-skill/SKILL.md": ["/maintain-verification-skill"],
+    "skills/poteto-mode/playbooks/opening-a-pr.md": ["/deslop", "/no-comments", "/technical-writing", "/interrogate"]
+  },
+  "unsupported_control_claims": ["/loop", "automatic landing"],
+  "required_degradations": ["capability_unavailable"],
+  "authority_requirements": ["explicit current authorization", "readback"]
+}

@@ -1,0 +1,61 @@
+name: Bug report
+description: Report a reproducible problem in the Hermes pstack port
+title: "[bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report security vulnerabilities here. Follow SECURITY.md instead.
+  - type: input
+    id: version
+    attributes:
+      label: Port version
+      placeholder: 0.14.5-hermes.1
+    validations:
+      required: true
+  - type: input
+    id: hermes
+    attributes:
+      label: Hermes Agent version
+      placeholder: 0.20.6
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      options:
+        - pstack
+        - pstack-runtime
+        - pstack-benny
+        - provenance or release tooling
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Include the qualified skill or command and the exact observed result.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Use a disposable Hermes profile and synthetic data.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Verification output
+      description: Include relevant doctor, verifier, or test output. Remove credentials and personal data.
+      render: text

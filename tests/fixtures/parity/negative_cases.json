@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "missing-source-row",
+      "mutation": "remove one source_path row from entries",
+      "expected_error": "missing_source_row"
+    },
+    {
+      "id": "null-target",
+      "mutation": "set port_target to null",
+      "expected_error": "null_port_target"
+    },
+    {
+      "id": "null-disposition",
+      "mutation": "set disposition to null",
+      "expected_error": "null_disposition"
+    },
+    {
+      "id": "duplicate-target",
+      "mutation": "assign two source rows the same port_target",
+      "expected_error": "duplicate_target"
+    },
+    {
+      "id": "source-hash-drift",
+      "mutation": "change immutable source bytes after ledger generation",
+      "expected_error": "source_hash_drift"
+    },
+    {
+      "id": "symlink",
+      "mutation": "insert a symlink into source or a target parent",
+      "expected_error": "symlink"
+    },
+    {
+      "id": "mode-drift",
+      "mutation": "change an immutable source file mode",
+      "expected_error": "source_mode_drift"
+    },
+    {
+      "id": "stale-output-hash",
+      "mutation": "attach a receipt to pending output or mutate emitted output",
+      "expected_error": "stale_output_hash"
+    },
+    {
+      "id": "folded-component",
+      "mutation": "map a principle beneath another skill instead of its exact identity",
+      "expected_error": "folded_component"
+    },
+    {
+      "id": "mistaken-23rd-poteto-route",
+      "mutation": "append opening-a-pr.md to routed_playbooks",
+      "expected_error": "mistaken_poteto_route"
+    }
+  ]
+}

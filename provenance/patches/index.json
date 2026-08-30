@@ -1,0 +1,76 @@
+{
+  "description": "Documented translation patches. A ledger patch ID must resolve here before output can be emitted.",
+  "patches": [
+    {
+      "class": "mechanical",
+      "id": "PATCH-HERMES-GUIDE-COMMANDS",
+      "purpose": "Translate Cursor installation, invocation, and command examples to supported Hermes equivalents without removing guide content.",
+      "required_tests": [
+        "guide-link-completeness",
+        "unsupported-primitive-scan"
+      ],
+      "status": "verified"
+    },
+    {
+      "class": "mechanical",
+      "id": "PATCH-HERMES-SCRIPT-PATHS",
+      "purpose": "Make script paths and host integrations portable while preserving the complete script and test tree.",
+      "required_tests": [
+        "upstream-script-suite",
+        "portable-path-scan"
+      ],
+      "status": "verified"
+    },
+    {
+      "class": "mechanical",
+      "id": "PATCH-HERMES-NO-IMPLICIT-INSTALL",
+      "purpose": "Fail closed when Poteto script dependencies are absent instead of downloading or mutating an installed plugin implicitly.",
+      "required_tests": [
+        "no-implicit-install",
+        "direct-script-contract"
+      ],
+      "status": "verified"
+    },
+    {
+      "class": "mechanical",
+      "id": "PATCH-HERMES-SKILL-PRIMITIVES",
+      "purpose": "Replace Cursor-only skill primitives with behaviorally equivalent supported Hermes operations.",
+      "required_tests": [
+        "explicit-skill-invocation",
+        "unsupported-primitive-scan"
+      ],
+      "status": "verified"
+    },
+    {
+      "class": "semantic",
+      "id": "PATCH-HERMES-MAKE-BOT-UI",
+      "purpose": "Translate Make Bot UI to Hermes authenticated webhooks, loopback-first serving, explicit approval gates, and verified end-to-end receipts.",
+      "required_tests": [
+        "make-bot-ui-runtime-contract",
+        "make-bot-ui-authority-gate"
+      ],
+      "status": "verified"
+    },
+    {
+      "class": "semantic",
+      "id": "PATCH-POTETO-RUNTIME-ADAPTER",
+      "purpose": "Preserve Poteto orchestration across 22 routes and the separate opening-a-pr postlude using Hermes-native runtime boundaries.",
+      "required_tests": [
+        "poteto-route-cardinality",
+        "representative-delegation"
+      ],
+      "status": "verified"
+    },
+    {
+      "class": "semantic",
+      "id": "PATCH-SETUP-RUNTIME-CONFIG",
+      "purpose": "Translate setup-pstack configuration behavior without claiming unsupported Hermes configuration or installation features.",
+      "required_tests": [
+        "disposable-profile-setup",
+        "authority-gate"
+      ],
+      "status": "verified"
+    }
+  ],
+  "schema_version": 1
+}

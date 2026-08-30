@@ -1,0 +1,27 @@
+{
+  "routed_playbooks": [
+    "authoring-a-skill.md",
+    "autonomous-run.md",
+    "autopilot-full.md",
+    "autopilot-stack.md",
+    "babysit.md",
+    "bug-fix.md",
+    "eval.md",
+    "feature.md",
+    "hillclimb.md",
+    "investigation.md",
+    "multi-phase-plan.md",
+    "orchestrate.md",
+    "pause-safely.md",
+    "perf-issue.md",
+    "prototype.md",
+    "refactoring.md",
+    "runtime-forensics.md",
+    "session-pickup.md",
+    "shipping.md",
+    "trace-forensics.md",
+    "visual-parity.md",
+    "worktree-cleanup.md"
+  ],
+  "shared_postlude": "opening-a-pr.md"
+}

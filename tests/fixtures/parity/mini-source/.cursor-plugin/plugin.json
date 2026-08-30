@@ -1,0 +1,8 @@
+{
+  "name": "pstack-fixture",
+  "version": "0.0.0-test",
+  "author": {"name": "Lauren Tan"},
+  "license": "MIT",
+  "repository": "https://example.invalid/pstack-fixture",
+  "skills": "./skills/"
+}

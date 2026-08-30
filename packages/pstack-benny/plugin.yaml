@@ -1,0 +1,8 @@
+name: pstack-benny
+version: 0.14.5-hermes.1
+manifest_version: 2
+api_version: 1
+description: Dormant Benny automation procedures from the full pstack source port
+license: MIT
+homepage: https://github.com/cursor/plugins/tree/6fecddba65801f9b9c08b8b328d998ee5b09d290/pstack/automations/benny
+tags: [pstack, automation, dormant, compatibility]

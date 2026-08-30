@@ -1,0 +1,422 @@
+{
+  "description": "Deterministic local evidence for documented Hermes adaptation gates; frozen script dependencies are installed only in an explicitly provisioned, automatically removed temporary copy.",
+  "patch_verification": {
+    "PATCH-HERMES-GUIDE-COMMANDS": {
+      "required_tests": [
+        "guide-link-completeness",
+        "unsupported-primitive-scan"
+      ],
+      "status": "verified"
+    },
+    "PATCH-HERMES-MAKE-BOT-UI": {
+      "required_tests": [
+        "make-bot-ui-runtime-contract",
+        "make-bot-ui-authority-gate"
+      ],
+      "status": "verified"
+    },
+    "PATCH-HERMES-NO-IMPLICIT-INSTALL": {
+      "required_tests": [
+        "no-implicit-install",
+        "direct-script-contract"
+      ],
+      "status": "verified"
+    },
+    "PATCH-HERMES-SCRIPT-PATHS": {
+      "required_tests": [
+        "upstream-script-suite",
+        "portable-path-scan"
+      ],
+      "status": "verified"
+    },
+    "PATCH-HERMES-SKILL-PRIMITIVES": {
+      "required_tests": [
+        "explicit-skill-invocation",
+        "unsupported-primitive-scan"
+      ],
+      "status": "verified"
+    },
+    "PATCH-POTETO-RUNTIME-ADAPTER": {
+      "required_tests": [
+        "poteto-route-cardinality",
+        "representative-delegation"
+      ],
+      "status": "verified"
+    },
+    "PATCH-SETUP-RUNTIME-CONFIG": {
+      "required_tests": [
+        "disposable-profile-setup",
+        "authority-gate"
+      ],
+      "status": "verified"
+    }
+  },
+  "schema_version": 1,
+  "tests": {
+    "authority-gate": {
+      "commands": [
+        {
+          "argv": [
+            "python",
+            "-B",
+            "-m",
+            "pytest",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "tests/test_plugin_pstack_full.py::test_exact_negative_fixtures_and_authority_path_behavior",
+            "tests/test_guide_port.py::GuidePortTests::test_examples_do_not_execute_external_or_live_profile_actions",
+            "tests/test_guide_port.py::GuidePortTests::test_risk_bearing_pages_state_their_authority_boundaries"
+          ],
+          "cwd": ".",
+          "exit_code": 0,
+          "output_sha256": "9e6c5ca646fd8bd3a37cf6b50cba567952423605d7a904ce83e8126d643965f9"
+        }
+      ],
+      "inputs": {
+        "tests/test_guide_port.py": "16c85e9056dcd30c37fb987a176ea7d41be92443633dab2245f23cc96126d189",
+        "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    },
+    "direct-script-contract": {
+      "commands": [
+        {
+          "argv": [
+            "python",
+            "-B",
+            "-m",
+            "pytest",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "tests/test_plugin_pstack_full.py::test_exact_negative_fixtures_and_authority_path_behavior"
+          ],
+          "cwd": ".",
+          "exit_code": 0,
+          "output_sha256": "08012d48ba103cade1ef63c9d3d05e311eba69801f290983def895e33bd66e89"
+        }
+      ],
+      "inputs": {
+        "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    },
+    "disposable-profile-setup": {
+      "commands": [
+        {
+          "argv": [
+            "python",
+            "-B",
+            "-m",
+            "pytest",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "tests/test_runtime_pstack_full.py::test_registered_route_tool_get_has_no_registration_or_get_write",
+            "tests/test_runtime_pstack_full.py::test_registered_route_tool_set_requires_complete_mapping_and_reads_back",
+            "tests/test_runtime_pstack_full.py::test_registered_route_tool_refuses_incomplete_bad_and_symlinked_sets",
+            "tests/test_runtime_pstack_full.py::test_setup_skill_uses_registered_tool_and_route_dispatch_contract"
+          ],
+          "cwd": ".",
+          "exit_code": 0,
+          "output_sha256": "196fc844f7768d827daa0b938ec7a3a46ca70ff4534a7cd5c09fdb4ffa566014"
+        }
+      ],
+      "inputs": {
+        "tests/test_runtime_pstack_full.py": "f0f8a2c8fe573fb096c4ff0b26cfd25b45d08d7f026854a884c13eab9238fa55",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    },
+    "explicit-skill-invocation": {
+      "commands": [
+        {
+          "argv": [
+            "python",
+            "-B",
+            "-m",
+            "pytest",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "tests/test_plugin_pstack_full.py::test_every_qualified_cross_reference_resolves_and_playbooks_are_linked_resources",
+            "tests/test_plugin_pstack_full.py::test_fresh_process_qualified_loading_and_linked_poteto_resource"
+          ],
+          "cwd": ".",
+          "exit_code": 0,
+          "output_sha256": "d930225b1855d5eb0ae19e687fa3634664c0bc06c2d4a4ccf9ac9fb8fd3fba4d"
+        }
+      ],
+      "inputs": {
+        "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    },
+    "guide-link-completeness": {
+      "commands": [
+        {
+          "argv": [
+            "python",
+            "-B",
+            "-m",
+            "pytest",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "tests/test_guide_port.py::GuidePortTests::test_relative_links_and_fragments_resolve"
+          ],
+          "cwd": ".",
+          "exit_code": 0,
+          "output_sha256": "785bf8b88296d832597dff7bb8cf5249d3ca9142c2d0cb35694e38b0c88256a5"
+        }
+      ],
+      "inputs": {
+        "tests/test_guide_port.py": "16c85e9056dcd30c37fb987a176ea7d41be92443633dab2245f23cc96126d189",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    },
+    "make-bot-ui-authority-gate": {
+      "commands": [
+        {
+          "argv": [
+            "python",
+            "-B",
+            "-m",
+            "pytest",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "tests/test_plugin_pstack_full.py::test_make_bot_ui_requires_approval_before_recurring_security_or_exposure_changes"
+          ],
+          "cwd": ".",
+          "exit_code": 0,
+          "output_sha256": "08012d48ba103cade1ef63c9d3d05e311eba69801f290983def895e33bd66e89"
+        }
+      ],
+      "inputs": {
+        "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    },
+    "make-bot-ui-runtime-contract": {
+      "commands": [
+        {
+          "argv": [
+            "python",
+            "-B",
+            "-m",
+            "pytest",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "tests/test_plugin_pstack_full.py::test_make_bot_ui_uses_hermes_webhook_hmac_and_loopback_relay_contract"
+          ],
+          "cwd": ".",
+          "exit_code": 0,
+          "output_sha256": "08012d48ba103cade1ef63c9d3d05e311eba69801f290983def895e33bd66e89"
+        }
+      ],
+      "inputs": {
+        "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    },
+    "no-implicit-install": {
+      "commands": [
+        {
+          "argv": [
+            "python",
+            "-B",
+            "-m",
+            "pytest",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "tests/test_plugin_pstack_full.py::test_bootstrap_fails_closed_without_implicit_provisioning_and_is_node_parseable"
+          ],
+          "cwd": ".",
+          "exit_code": 0,
+          "output_sha256": "08012d48ba103cade1ef63c9d3d05e311eba69801f290983def895e33bd66e89"
+        }
+      ],
+      "inputs": {
+        "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    },
+    "portable-path-scan": {
+      "commands": [
+        {
+          "argv": [
+            "python",
+            "-B",
+            "-m",
+            "pytest",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "tests/test_plugin_pstack_full.py::test_workspace_has_no_cache_bytecode_or_machine_absolute_artifacts",
+            "tests/test_plugin_pstack_full.py::test_executable_package_code_has_no_dean_path_or_live_cursor_state_path",
+            "tests/test_workspace_contract.py::test_materialized_artifact_has_no_machine_specific_home_path"
+          ],
+          "cwd": ".",
+          "exit_code": 0,
+          "output_sha256": "9c647cd803dc1fb7bdcf9f51da6b5d5781dabb7f37769d6fdf3c90c70515c2dd"
+        }
+      ],
+      "inputs": {
+        "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
+        "tests/test_workspace_contract.py": "2f0235944731a2926b89f2dd4d832f887460c7944533cadd162ed65247ba35d0",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    },
+    "poteto-route-cardinality": {
+      "commands": [
+        {
+          "argv": [
+            "python",
+            "-B",
+            "-m",
+            "pytest",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "tests/test_parity_checked_in.py::CheckedInParityTests::test_poteto_contract_is_22_routes_plus_postlude",
+            "tests/test_plugin_pstack_full.py::test_every_qualified_cross_reference_resolves_and_playbooks_are_linked_resources"
+          ],
+          "cwd": ".",
+          "exit_code": 0,
+          "output_sha256": "d930225b1855d5eb0ae19e687fa3634664c0bc06c2d4a4ccf9ac9fb8fd3fba4d"
+        }
+      ],
+      "inputs": {
+        "tests/test_parity_checked_in.py": "e012538f980b4706039f9a58a016e490b27c967fea08fcf2f39cb3c6678bf8fb",
+        "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    },
+    "representative-delegation": {
+      "commands": [
+        {
+          "argv": [
+            "python",
+            "-B",
+            "-m",
+            "pytest",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "tests/test_plugin_pstack_full.py::test_role_bearing_workflows_read_named_route_or_fall_back_to_inherited_delegation",
+            "tests/test_runtime_pstack_full.py::test_direct_route_describes_native_primitive_without_executing_it",
+            "tests/test_runtime_pstack_full.py::test_non_parent_alias_requires_runtime_and_explicit_capability",
+            "tests/test_runtime_pstack_full.py::test_fake_safe_adapter_is_injected_and_returns_only_its_local_receipt"
+          ],
+          "cwd": ".",
+          "exit_code": 0,
+          "output_sha256": "196fc844f7768d827daa0b938ec7a3a46ca70ff4534a7cd5c09fdb4ffa566014"
+        }
+      ],
+      "inputs": {
+        "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
+        "tests/test_runtime_pstack_full.py": "f0f8a2c8fe573fb096c4ff0b26cfd25b45d08d7f026854a884c13eab9238fa55",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    },
+    "unsupported-primitive-scan": {
+      "commands": [
+        {
+          "argv": [
+            "python",
+            "-B",
+            "-m",
+            "pytest",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "tests/test_guide_port.py::GuidePortTests::test_adapted_markdown_has_no_live_cursor_mechanics",
+            "tests/test_plugin_pstack_full.py::test_operative_markdown_has_no_live_cursor_runtime_primitive"
+          ],
+          "cwd": ".",
+          "exit_code": 0,
+          "output_sha256": "a603d5b59e62e8a5918f5a048dedf7adda0819ee27bd9abfcba9873fb0b13188"
+        }
+      ],
+      "inputs": {
+        "tests/test_guide_port.py": "16c85e9056dcd30c37fb987a176ea7d41be92443633dab2245f23cc96126d189",
+        "tests/test_plugin_pstack_full.py": "3b1aff51d2d792c298cf552b0454117d2962329dc405e3e26bdf4c65c95b8cc5",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    },
+    "upstream-script-suite": {
+      "commands": [
+        {
+          "argv": [
+            "bun",
+            "install",
+            "--frozen-lockfile"
+          ],
+          "cwd": "ephemeral:packages/pstack/skills/poteto-mode/scripts",
+          "exit_code": 0,
+          "output_sha256": "d2bc995533a8b171f188c8c6d2f63a8779fe529b4aa69d02cfd4d85db6728ee3"
+        },
+        {
+          "argv": [
+            "bun",
+            "test",
+            "orch",
+            "watch-pr"
+          ],
+          "cwd": "ephemeral:packages/pstack/skills/poteto-mode/scripts",
+          "exit_code": 0,
+          "output_sha256": "99274f40085d9b057ec9a26f4116914f2d89539cd8be4df474715d0797ba2b4e"
+        },
+        {
+          "argv": [
+            "bun",
+            "run",
+            "typecheck"
+          ],
+          "cwd": "ephemeral:packages/pstack/skills/poteto-mode/scripts",
+          "exit_code": 0,
+          "output_sha256": "12da71fa97056b0a7f14633fcd1fa4f6d1c7004868c19d86665d07c3c1444e21"
+        }
+      ],
+      "inputs": {
+        "packages/pstack/skills/poteto-mode/scripts/bootstrap.ts": "6071264d0bbbbc7538a5c0260610ad905877d3f3707471354cfe191d144c4b10",
+        "packages/pstack/skills/poteto-mode/scripts/bun.lock": "5b7b799c34361e11da7f0f9e0be04a4b133d903d7da8f13424ec381d22a2af24",
+        "packages/pstack/skills/poteto-mode/scripts/check-plan.mjs": "09cee47a6734f9f2c4547a9fe92f8b4991228e63ad0748786a9f25027edc7a06",
+        "packages/pstack/skills/poteto-mode/scripts/orch/orch.test.ts": "174b86d21ff51ccd28d1a8c938cb2e0c6fa287b209d4ca6c03932fcb1b53372e",
+        "packages/pstack/skills/poteto-mode/scripts/orch/orch.ts": "f091687df627a0b75fabd54af58945a9cd6c7039ef0622012ac9ed60cd8ec434",
+        "packages/pstack/skills/poteto-mode/scripts/orch/store.ts": "0eae7cf69282e827b1227166f2e32cee3560f2f3e65b3f1f2faf6fb83d3b4c5b",
+        "packages/pstack/skills/poteto-mode/scripts/package.json": "414804d070f48cc26c4bd6f1e92d055bd1561e912578a459f52219159a5eb721",
+        "packages/pstack/skills/poteto-mode/scripts/watch-pr/cli.test.ts": "a35592b4c6da96caf8d47987e9cd503fab6c7774ab87d11a43f24b4b5df2a9d1",
+        "packages/pstack/skills/poteto-mode/scripts/watch-pr/cli.ts": "89c08863089181a232be782c4b2ed90a1552f44aeecb0dcb7aac2c623620e680",
+        "packages/pstack/skills/poteto-mode/scripts/watch-pr/fakes.test-helper.ts": "e53e31b7f03068063f53a99a3591b052aaed66e4e2b196b3a364980f60324ab1",
+        "packages/pstack/skills/poteto-mode/scripts/watch-pr/github.test.ts": "80491a792a3b21f76d34358b04b1aa9508d29ee24466dff2c5adfa906303fa60",
+        "packages/pstack/skills/poteto-mode/scripts/watch-pr/github.ts": "2415d5cf110370380821f45b508f4d9fad032d1918e2ae18616da8f378b653ea",
+        "packages/pstack/skills/poteto-mode/scripts/watch-pr/policy.test.ts": "a9fedb25feefd1f57ef6a662f80c99018690170a3a8070773a08eaf694d1d3d9",
+        "packages/pstack/skills/poteto-mode/scripts/watch-pr/policy.ts": "68d240505852cf23c9b2dea463342e9e61243f486b3cc86c735d140f9ee7be49",
+        "packages/pstack/skills/poteto-mode/scripts/watch-pr/render.ts": "2b709e86628d5b8fdb61f860e60ababc342b0626c67576305442cf548283a604",
+        "packages/pstack/skills/poteto-mode/scripts/watch-pr/tsconfig.json": "1ecccc72320b086c63ce3f73c959896fd747363e63553b3b1136296ea4069e45",
+        "packages/pstack/skills/poteto-mode/scripts/watch-pr/types.compile.ts": "621af4c9a664fbf699a9737efccdc248abb416df8819c9dc5f824beae2b9b1d6",
+        "packages/pstack/skills/poteto-mode/scripts/watch-pr/types.ts": "64ba6221e3bfe61bbb292337d199cdec6309455477280efb060203dba34e0e91",
+        "packages/pstack/skills/poteto-mode/scripts/watch-pr/watch-pr": "d955603be6cc0e8b8ffcec722f635192b2261410b1f2929abea94480e47eb5d4",
+        "packages/pstack/skills/poteto-mode/scripts/worktree-audit.sh": "8d0d52c6e84a1ce2b1400643e574f3ecaacc7c13be366327f3d2d1904fdc6aa4",
+        "tools/receipt.py": "0860c6b1be2a9173f8e7665271491020816aa68db49c70db1974ca72e60bb172"
+      },
+      "status": "passed"
+    }
+  }
+}

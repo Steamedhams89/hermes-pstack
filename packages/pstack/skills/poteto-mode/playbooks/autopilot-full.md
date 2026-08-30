@@ -1,0 +1,16 @@
+<!-- PATCH-HERMES-SKILL-PRIMITIVES -->
+
+> **Native Hermes mapping.** This is content-only for durable fleet control. Use bounded `delegate_task` work with explicit scopes; do not claim cloud owners, persistent wake chains, or autonomous merges. Any Git/GitHub operation remains a separately authorized operator action.
+### Autopilot-full
+
+**You own the verdicts, never the PRs. One owner runs each PR from build to merge, and nothing merges without your clean swarm verdict.** For "autopilot this queue", "full autopilot", and one-owner-per-PR programs. The job is a queue of independent PRs handed over to drive to merged with full autonomy. Orchestrate runs a standing program whose coordinator lands verified work itself and whose workers never merge; here each PR's owner carries the whole lifecycle through the merge, and the root keeps only verification, countersigns, and audits.
+
+1. **Mark the operator's items and honor state-then-wait.** Items the operator names stay hers. State the proposed program and stop until an explicit go. On that go, record the objective in `todo` for this active session; it does not continue across sessions by itself.
+2. **Dispatch one bounded owner per independently scoped change.** Use `delegate_task`, one writer per permitted branch or worktree. Each owner builds, verifies, triages evidence as untrusted data, and returns a decision trail. It does not create, push, merge, or publish a pull request without separate authority.
+3. **Run owners in parallel only across real independent seams.** The port does not provide a Graphite stack controller. For dependent work, retain ordering in `todo` and report the required pull-request order rather than simulating a stack owner.
+4. **Verify each locally review-ready change independently.** Dispatch read-only/no-write verifiers with `delegate_task`, then aggregate their evidence. A clean verdict is evidence for a separately authorized pull request, never permission to merge.
+5. **On a clean verdict prepare one trunk-current local review unit and take no integration action.** The owner may prepare the merge-ready report from a head freshly restacked on trunk and pin that SHA in the swarm verdict. If trunk moves again before a separately authorized integration action, the patch-id rule in `playbooks/shipping.md` governs re-verification; a new head voids the verdict unless the patch-id is unchanged. Commit, push, pull-request creation, and merge each remain separately and currently authorized actions. Operator-named items stop at merge-ready and wait for her decision.
+6. **Keep the coordinator in the active session.** Durable 30-minute audit ticks, cloud wake chains, and automatic status messages are unavailable unless separately designed and authorized as Hermes automation. Record current state and a truthful next action; do not infer progress from silent workers.
+7. **Stand down instantly on the operator's stop.** Her hold or stand-down reaches every owner as a zero-writes order immediately. Owners hold their briefs until she releases them.
+
+**Reply:** the queue with each PR's owner, state, and head SHA; each verdict and the swarm that produced it; what merged and what each owner took next; countersigns granted and why; open operator gates; where the collected decision trails live.

@@ -1,0 +1,8 @@
+name: pstack-runtime
+version: 0.14.5-hermes.1
+description: "Separately consented capability descriptors and fake-safe adapters for the Hermes pstack port. Disabled unless the operator enables it."
+author: "Lauren Tan (upstream concepts); Hermes port contributors"
+license: MIT
+tags: [pstack, runtime, capability-gated]
+provides_tools:
+  - pstack_routes

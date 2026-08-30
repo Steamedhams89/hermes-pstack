@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/Steamedhams89/hermes-pstack/security
+    about: Read SECURITY.md and use private reporting when available.

@@ -1,0 +1,6 @@
+name: pstack
+version: 0.14.5-hermes.1
+description: "Source-faithful Hermes content plugin for Lauren Tan's pstack 0.14.5. Explicit qualified loads only."
+author: "Lauren Tan (upstream); Hermes port contributors"
+license: MIT
+tags: [pstack, skills, source-faithful]
