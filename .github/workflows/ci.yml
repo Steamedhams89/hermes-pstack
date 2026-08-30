@@ -62,7 +62,58 @@ jobs:
         run: python -B tools/verify.py --require-complete
 
       - name: Require deterministic checked-in receipts
+        id: deterministic_receipts
         run: git diff --exit-code -- provenance/parity-ledger.json provenance/patches/index.json provenance/test-receipts.json
+
+      - name: Diagnose Bun receipt drift
+        if: steps.deterministic_receipts.outcome == 'failure'
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import os
+          import shutil
+          import subprocess
+          import tempfile
+          from pathlib import Path
+
+          from tools import receipt
+
+          root = Path.cwd()
+          with tempfile.TemporaryDirectory(prefix="pstack-ci-diagnostic-") as temporary:
+              scripts = Path(temporary) / "scripts"
+              shutil.copytree(root / receipt.SCRIPT_ROOT, scripts, ignore=shutil.ignore_patterns("node_modules"))
+              subprocess.run(
+                  ["bun", "install", "--frozen-lockfile"],
+                  cwd=scripts,
+                  env=os.environ.copy(),
+                  check=True,
+                  capture_output=True,
+                  text=True,
+              )
+              for command in receipt.TEST_SPECS["upstream-script-suite"].commands:
+                  if command.argv[:2] != ("bun", "test"):
+                      continue
+                  result = subprocess.run(
+                      command.argv,
+                      cwd=scripts,
+                      env=os.environ.copy(),
+                      check=False,
+                      capture_output=True,
+                      text=True,
+                  )
+                  normalized = receipt._normalize_output(
+                      result.stdout + result.stderr,
+                      root,
+                      Path(temporary) / "hermes-home",
+                  )
+                  print(json.dumps({
+                      "argv": command.argv,
+                      "exit_code": result.returncode,
+                      "output_sha256": hashlib.sha256(normalized.encode()).hexdigest(),
+                      "normalized_output": normalized,
+                  }))
+          PY
 
       - name: Validate all plugin packages
         run: |
