@@ -54,7 +54,7 @@ jobs:
           python -m pip install -e './vendor/hermes-agent[dev]'
 
       - name: Run the complete Python suite
-        run: python -B -m pytest -q -p no:cacheprovider
+        run: python -B -m pytest -q -p no:cacheprovider tests
 
       - name: Reproduce adaptation receipts
         run: python -B tools/receipt.py --write --provision-script-deps
