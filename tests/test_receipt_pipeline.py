@@ -97,12 +97,19 @@ def test_output_normalization_removes_environment_and_timing_noise(monkeypatch, 
     monkeypatch.setenv("HERMES_SOURCE_ROOT", str(hermes_source))
     raw = (
         "\x1b[32mbun install\x1b[0m [28.00ms]\r\n"
+        "bun test v1.4.0 (34cbb9a40) 1x PARALLEL\r\n"
+        "::group::orch/orch.test.ts:\r\n"
+        "14 pass\r\n\r\n"
+        "::endgroup::\r\n\r\n"
         "pytest in 1.23s\r\n"
         f"{repo_root} {hermes_home} {hermes_source}\r\n"
     )
 
     assert receipt._normalize_output(raw, repo_root, hermes_home) == (
         "bun install [<duration>]\n"
+        "bun test v1.4.0 (34cbb9a40)\n"
+        "orch/orch.test.ts:\n"
+        "14 pass\n\n"
         "pytest in <duration>s\n"
         "<repo> <hermes-home> <hermes-source>\n"
     )

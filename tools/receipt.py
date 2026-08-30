@@ -296,11 +296,17 @@ def _expand_inputs(repo_root: Path, test_id: str, spec: TestSpec) -> dict[str, s
 _ANSI = re.compile(r"\x1b\[[0-9;]*m")
 _DURATION = re.compile(r"\bin\s+\d+(?:\.\d+)?s\b")
 _BRACKETED_DURATION = re.compile(r"\[\d+(?:\.\d+)?(?:ns|us|µs|ms|s)\]")
+_BUN_PARALLEL_LABEL = re.compile(r"(?m)^(bun test v[^\n]+?) \d+x PARALLEL$")
+_GITHUB_GROUP_PREFIX = re.compile(r"(?m)^::group::")
+_GITHUB_END_GROUP = re.compile(r"(?m)^::endgroup::(?:\n\n|\n|$)")
 _TEMP_PATH = re.compile(r"/tmp/(?:pytest-of-[^/\s]+/pytest-\d+|pstack-receipt-[^/\s]+)")
 
 
 def _normalize_output(text: str, repo_root: Path, hermes_home: Path) -> str:
     value = _ANSI.sub("", text.replace("\r\n", "\n"))
+    value = _BUN_PARALLEL_LABEL.sub(r"\1", value)
+    value = _GITHUB_GROUP_PREFIX.sub("", value)
+    value = _GITHUB_END_GROUP.sub("", value)
     replacements = {
         str(repo_root): "<repo>",
         str(hermes_home): "<hermes-home>",
